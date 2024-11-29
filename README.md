@@ -23,6 +23,15 @@ Bem-vindo ao meu portfólio! Aqui estão alguns dos projetos que desenvolvi util
 
 ---
 
+### [Painel de Incêndios Florestais na Austrália](https://github.com/samuel-c-santos/painel-incendios-australia)
+- **Descrição**: Um painel interativo que explora dados históricos de incêndios florestais na Austrália. Permite visualizar a área estimada de incêndios e frequência mensal de ocorrências vegetativas por região.
+- **Tecnologias**: Python, Dash, Plotly, Pandas
+- **Link para Visualização**: [Acesse o painel](https://painel-incendios-australia.onrender.com)
+- **Captura de Tela**:
+  ![Painel de Incêndios](https://github.com/samuel-c-santos/painel-incendios-australia/blob/main/painel.png?raw=true)
+
+---
+
 ### [Relatórios Power BI](https://github.com/samuel-c-santos/relatorios_bi)
 Uma coleção de dashboards desenvolvidos com Power BI para análise e monitoramento estratégico em diversos contextos.
 
@@ -42,16 +51,6 @@ Uma coleção de dashboards desenvolvidos com Power BI para análise e monitoram
   Um dos 4 dashboards para monitorar sobreposições do CAR em terras indígenas, quilombos, unidades de conservação e assentamentos.
   ![Sobreposições](https://github.com/samuel-c-santos/relatorios_bi/blob/main/sobreposicoes.png?raw=true)
 
----
-
-### [Painel de Incêndios Florestais na Austrália](https://github.com/samuel-c-santos/painel-incendios-australia)
-- **Descrição**: Um painel interativo que explora dados históricos de incêndios florestais na Austrália. Permite visualizar a área estimada de incêndios e frequência mensal de ocorrências vegetativas por região.
-- **Tecnologias**: Python, Dash, Plotly, Pandas
-- **Link para Visualização**: [Acesse o painel](https://painel-incendios-australia.onrender.com)
-- **Captura de Tela**:
-  ![Painel de Incêndios](https://github.com/samuel-c-santos/painel-incendios-australia/blob/main/painel.png?raw=true)
-
----
 
 ## Habilidades e Ferramentas
 - **Linguagens**: Python, SQL
