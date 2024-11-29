@@ -60,6 +60,24 @@ Uma coleção de dashboards desenvolvidos com Power BI para análise e monitoram
 
 ---
 
+Aqui está um resumo para incluir no seu portfólio:
+
+---
+
+### [Análise de Dados de Malária](https://github.com/samuel-c-santos/malaria-data-analysis)
+
+- **Descrição**: Este projeto apresenta um pipeline completo para análise de dados de malária, desde a extração de dados em mais de 1000 arquivos PDF, passando pela transformação e consolidação, até a geração de mapas geoespaciais. Inclui mapas de risco, densidade de kernel e análises de autocorrelação espacial para suporte à tomada de decisão em saúde pública.
+- **Principais Funcionalidades**:
+  - Extração de dados de PDFs.
+  - Consolidação e análise estatística dos dados.
+  - Geração de mapas geoespaciais, como fluxo de casos importados e mapas de risco.
+- **Tecnologias Utilizadas**: Python, pandas, geopandas, matplotlib, pdfplumber.
+- **Repositório**: [Acesse o repositório no GitHub](https://github.com/samuel-c-santos/malaria-data-analysis)
+- **Imagem**:
+  ![Mapa de Fluxo](https://raw.githubusercontent.com/samuel-c-santos/malaria-data-analysis/main/maps/map_outputs/mapa_fluxo_casos_importados_2022.png)
+
+---
+
 ## Sobre Mim
 Sou um profissional apaixonado por análise de dados e desenvolvimento de soluções baseadas em dados. Tenho experiência em geoprocessamento, regularização ambiental e ciência de dados.
 
