@@ -1,16 +1,31 @@
-## Hi there 👋
+# Portfólio de análise de dados de Samuel Santos
 
-<!--
-**samuel-c-santos/samuel-c-santos** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Bem-vindo ao meu portfólio! Aqui estão alguns dos projetos que desenvolvi utilizando Python, Dash, análise de dados e outras ferramentas. Sinta-se à vontade para explorar e me contatar caso queira discutir algum trabalho ou colaboração.
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Projetos em Destaque
+
+### [Painel de Incêndios Florestais na Austrália](https://github.com/samuel-c-santos/painel-incendios-australia)
+- **Descrição**: Um painel interativo que explora dados históricos de incêndios florestais na Austrália. Permite visualizar a área estimada de incêndios e frequência mensal de ocorrências vegetativas por região.
+- **Tecnologias**: Python, Dash, Plotly, Pandas
+- **Link para Visualização**: [Acesse o painel](https://painel-incendios-australia.onrender.com)
+- **Captura de Tela**:
+  ![Painel de Incêndios](https://github.com/samuel-c-santos/painel-incendios-australia/blob/main/imagens/painel.png?raw=true)
+
+---
+
+## Habilidades e Ferramentas
+- **Linguagens**: Python, SQL
+- **Ferramentas de Visualização**: Dash, Plotly, Power BI
+- **Análise de Dados**: Pandas, NumPy
+- **Geoprocessamento**: QGIS, Google Earth Engine
+
+---
+
+## Sobre Mim
+
+Sou um profissional apaixonado por análise de dados e desenvolvimento de soluções baseadas em dados. Tenho experiência em geoprocessamento, regularização ambiental e ciência de dados.
+
+- [LinkedIn](https://www.linkedin.com/in/samuelsantos-amb/)
+- E-mail: samuelsantosambiental@gmail.com
