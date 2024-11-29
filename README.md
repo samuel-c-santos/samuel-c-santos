@@ -11,7 +11,7 @@ Bem-vindo ao meu portfólio! Aqui estão alguns dos projetos que desenvolvi util
 - **Tecnologias**: Python, Dash, Plotly, Pandas
 - **Link para Visualização**: [Acesse o painel](https://painel-incendios-australia.onrender.com)
 - **Captura de Tela**:
-  ![Painel de Incêndios](https://github.com/samuel-c-santos/painel-incendios-australia/blob/main/imagens/painel.png?raw=true)
+  ![Painel de Incêndios](https://github.com/samuel-c-santos/painel-incendios-australia/blob/main/painel.png?raw=true)
 
 ---
 
