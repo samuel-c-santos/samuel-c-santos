@@ -6,6 +6,23 @@ Bem-vindo ao meu portfólio! Aqui estão alguns dos projetos que desenvolvi util
 
 ## Projetos em Destaque
 
+### [Sistema de Certificação do Cadastro Ambiental Rural (CAR)](https://github.com/samuel-c-santos/sistema-certificacao-car)
+- **Descrição**: Sistema desenvolvido para automatizar a emissão de certificados do Cadastro Ambiental Rural (CAR), garantindo eficiência e controle rigoroso das emissões realizadas. Implementado para a Secretaria de Estado de Meio Ambiente e Sustentabilidade (SEMAS/PA).
+- **Principais Funcionalidades**:
+  - Geração automatizada de certificados em PDF com números de série únicos.
+  - Armazenamento no banco de dados para auditorias detalhadas.
+  - Documentação completa de metadados de cada operação.
+  - Controle de acesso e registro de ações realizadas por usuários.
+- **Tecnologias**: Python, Flask, PostgreSQL, ReportLab
+- **Demonstrações**:
+  - [Tela Inicial e Login](https://github.com/samuel-c-santos/sistema-certificacao-car/blob/main/tela_inicial.mp4)
+  - [Geração por CPF/CNPJ](https://github.com/samuel-c-santos/sistema-certificacao-car/blob/main/gerar_cpf.mp4)
+  - [Geração por Lista](https://github.com/samuel-c-santos/sistema-certificacao-car/blob/main/gerar_lista.mp4)
+- **Captura de Tela**:
+  ![Página Inicial](https://github.com/samuel-c-santos/sistema-certificacao-car/blob/main/index.png?raw=true)
+
+---
+
 ### [Painel de Incêndios Florestais na Austrália](https://github.com/samuel-c-santos/painel-incendios-australia)
 - **Descrição**: Um painel interativo que explora dados históricos de incêndios florestais na Austrália. Permite visualizar a área estimada de incêndios e frequência mensal de ocorrências vegetativas por região.
 - **Tecnologias**: Python, Dash, Plotly, Pandas
