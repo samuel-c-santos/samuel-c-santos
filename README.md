@@ -84,3 +84,22 @@ Sou um profissional apaixonado por análise de dados e desenvolvimento de soluç
 - [LinkedIn](https://www.linkedin.com/in/samuelsantos-amb/)
 - [Cartão Digital](https://dot.cards/samuelsantos)
 - E-mail: samuelsantosambiental@gmail.com
+
+---
+
+## Certificações
+
+<div align="center">
+  <img src="https://images.credly.com/size/680x680/images/42ce4209-8839-431a-9046-f2ce2e72e04b/Coursera_20Data_20Science_20Professional_20Certificate.png" alt="IBM Data Science" width="150" height="150">
+  <img src="https://images.credly.com/size/680x680/images/cbe961ef-3536-47a1-be43-14c461a3216e/image.png" alt="Google Business Intelligence" width="150" height="150">
+  <img src="https://images.credly.com/size/680x680/images/d41de2b7-cbc2-47ec-bcf1-ebecbe83872f/GCC_badge_DA_1000x1000.png" alt="Google Data Analytics" width="150" height="150">
+</div>
+
+### Certificado Profissional de IBM Data Science
+- [Ver Certificação](https://www.coursera.org/account/accomplishments/professional-cert/S77137BIW3BB)
+
+### Certificado Profissional de Google Business Intelligence
+- [Ver Certificação](https://www.coursera.org/account/accomplishments/professional-cert/6O9UOEAOR8SC)
+
+### Certificado Profissional de Google Data Analytics
+- [Ver Certificação](https://www.coursera.org/account/accomplishments/professional-cert/UCL8PA52WE22)
