@@ -15,9 +15,10 @@ Bem-vindo ao meu portfólio! Aqui estão alguns dos projetos que desenvolvi util
   - Controle de acesso e registro de ações realizadas por usuários.
 - **Tecnologias**: Python, Flask, PostgreSQL, ReportLab
 - **Demonstrações**:
-  - [Tela Inicial e Login](https://github.com/samuel-c-santos/sistema-certificacao-car/blob/main/tela_inicial.mp4)
-  - [Geração por CPF/CNPJ](https://github.com/samuel-c-santos/sistema-certificacao-car/blob/main/gerar_cpf.mp4)
-  - [Geração por Lista](https://github.com/samuel-c-santos/sistema-certificacao-car/blob/main/gerar_lista.mp4)
+  - [Tela Inicial e Login](https://player.vimeo.com/video/1035004919?h=805fa5024b)
+  - [Geração por CPF/CNPJ](https://player.vimeo.com/video/1035004850?h=86aba52290)
+  - [Geração por Lista](https://player.vimeo.com/video/1035004865?h=2d347da33e)
+
 - **Captura de Tela**:
   ![Página Inicial](https://github.com/samuel-c-santos/sistema-certificacao-car/blob/main/index.png?raw=true)
 
