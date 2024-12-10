@@ -113,11 +113,12 @@ graph TD
 ---
 
 ## Sobre Mim
-Sou um profissional apaixonado por análise de dados e desenvolvimento de soluções baseadas em dados. Tenho experiência em geoprocessamento, regularização ambiental e ciência de dados.
+Sou um profissional apaixonado por análise de dados e desenvolvimento de soluções baseadas em dados. Mestre em Biologia Ambiental e especialista em Ciencia de Dados, Tenho experiência em geoprocessamento, regularização ambiental e ciência de dados.
 
 - [LinkedIn](https://www.linkedin.com/in/samuelsantos-amb/)
 - [Cartão Digital](https://dot.cards/samuelsantos)
 - E-mail: samuelsantosambiental@gmail.com
+- Veja também meu Portfólio de Geoprocessamento e Cartografia: [Explorar Portfólio](https://github.com/samuel-c-santos/cartografia)
 
 ---
 
