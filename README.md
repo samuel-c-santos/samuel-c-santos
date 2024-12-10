@@ -65,6 +65,39 @@ Aqui está um resumo para incluir no seu portfólio:
 
 ---
 
+### Cenário Automatizado no QGIS para Análises Geoespaciais
+
+### Resumo do Projeto
+Este projeto automatiza a geração de cenários geoespaciais no QGIS, facilitando o trabalho da **Gerência de Tratamento Digital de Imagens e Suporte ao Monitoramento Espacial Ambiental (GTDI)**, da **Diretoria de Geotecnologias (DIGEO)**. Tradicionalmente, a GTDI monta cenários importando bases vetoriais extensas e organizando-as em grupos e subgrupos antes de realizar recortes com buffer de 15 km para análises detalhadas. 
+
+Com este sistema, grande parte dessas etapas são automatizadas, permitindo que a equipe concentre esforços em tarefas analíticas e tomadas de decisão.
+
+### Funcionalidades Principais
+- **Cenário Automático de Vetores:** Importa, organiza e estrutura camadas geoespaciais em grupos e subgrupos no QGIS.
+- **Clip Automático Base Local:** Filtra um imóvel específico, gera buffers de 15 km e recorta todas as camadas do projeto dentro desse limite.
+- **Exportação e Organização Automatizada:** Camadas recortadas são exportadas e organizadas em uma estrutura clara e eficiente.
+
+### Fluxograma do Sistema
+```mermaid
+graph TD
+    A[Início] --> B[Carregar Base Vetorial]
+    B --> C[Filtrar Imóvel]
+    C --> D{Imóvel Encontrado?}
+    D -- Sim --> E[Gerar Buffer de 15km]
+    D -- Não --> F[Fim]
+    E --> G[Clipar Camadas]
+    G --> H[Exportar Resultados]
+    H --> F[Fim]
+```
+
+### Captura de Tela
+![Clip Automático Base Local](https://github.com/nidgeo-digeo-semas/cenario_automatizado_qgis/blob/main/clip_automatico_base_local.png?raw=true)
+
+### Repositório
+[Confira o projeto completo no GitHub](https://github.com/nidgeo-digeo-semas/cenario_automatizado_qgis)
+
+---
+
 ### [Análise de Dados de Malária](https://github.com/samuel-c-santos/malaria-data-analysis)
 
 - **Descrição**: Este projeto apresenta um pipeline completo para análise de dados de malária, desde a extração de dados em mais de 1000 arquivos PDF, passando pela transformação e consolidação, até a geração de mapas geoespaciais. Inclui mapas de risco, densidade de kernel e análises de autocorrelação espacial para suporte à tomada de decisão em saúde pública.
