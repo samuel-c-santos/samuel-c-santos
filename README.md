@@ -33,8 +33,28 @@ Bem-vindo ao meu portfólio! Aqui estão alguns dos projetos que desenvolvi util
 
 ---
 
-### [Relatórios Power BI](https://github.com/samuel-c-santos/relatorios_bi)
-Uma coleção de dashboards desenvolvidos com Power BI para análise e monitoramento estratégico em diversos contextos.
+Aqui está o trecho adaptado com apenas a **captura de tela principal** e com o tamanho ajustado conforme o formato do README anterior:
+
+---
+
+### [Prioritask - Aplicativo de Gestão de Tarefas](https://github.com/samuel-c-santos/prioritask)
+- **Descrição**: Aplicativo mobile desenvolvido para auxiliar no gerenciamento de tarefas, com foco em simplicidade e produtividade. Permite a organização eficiente das atividades diárias por meio de filtros e categorias personalizadas.  
+- **Principais Funcionalidades**:
+  - Adição, edição e exclusão de tarefas.
+  - Filtros para organizar e priorizar tarefas.
+  - Configurações personalizáveis para a experiência do usuário.
+  - Interface intuitiva e responsiva.
+- **Tecnologias**: React Native, Expo, JavaScript
+- **Demonstração**:  
+  [🎥 Assista à demonstração completa no Vimeo](https://vimeo.com/1039919429)
+
+- **Captura de Tela**:  
+  <img src="https://github.com/samuel-c-santos/prioritask/blob/main/Screenshot_20241217_041628_Prioritask.jpg?raw=true" alt="Tela Principal" width="500"/>
+
+- **Download do APK para Testes**:  
+  [📥 Prioritask APK](https://drive.google.com/file/d/14dIKvjnv3AZPvIWdcUqe8dFGKYF9b8qD/view?usp=sharing)
+
+---
 
 - **[Relatório de Iniciativas e Resultados da DIGEO/SEMAS-PA](https://app.powerbi.com/view?r=eyJrIjoiMzJhMTg4NzItMmI5Ny00YjQwLTgzN2UtOWQxMzU1M2JhNDk0IiwidCI6ImJiOWRkMWUwLTgzYmEtNGZmYS1hY2Q3LTQyNzJhZGY4ZGIyNSJ9)**:
   Integra dados de diferentes frentes de ação da DIGEO, como gestão de contratos, municipalização do CAR e mutirões de atendimento.
