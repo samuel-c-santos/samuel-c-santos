@@ -85,7 +85,7 @@ Bem-vindo ao meu portfólio! Aqui estão alguns dos projetos que desenvolvi util
 
 ---
 
-### Cenário Automatizado no QGIS para Análises Geoespaciais
+### [Cenário Automatizado no QGIS para Análises Geoespaciais](https://github.com/nidgeo-digeo-semas/cenario_automatizado_qgis)
 
 ### Resumo do Projeto
 Este projeto automatiza a geração de cenários geoespaciais no QGIS, facilitando o trabalho da **Gerência de Tratamento Digital de Imagens e Suporte ao Monitoramento Espacial Ambiental (GTDI)**, da **Diretoria de Geotecnologias (DIGEO)**. Tradicionalmente, a GTDI monta cenários importando bases vetoriais extensas e organizando-as em grupos e subgrupos antes de realizar recortes com buffer de 15 km para análises detalhadas. 
@@ -112,9 +112,6 @@ graph TD
 
 ### Captura de Tela
 ![Clip Automático Base Local](https://github.com/nidgeo-digeo-semas/cenario_automatizado_qgis/blob/main/clip_automatico_base_local.png?raw=true)
-
-### Repositório
-[Confira o projeto completo no GitHub](https://github.com/nidgeo-digeo-semas/cenario_automatizado_qgis)
 
 ---
 
