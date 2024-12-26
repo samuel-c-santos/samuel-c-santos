@@ -64,7 +64,7 @@ Bem-vindo ao meu portfólio! Aqui estão alguns dos projetos que desenvolvi util
   Integra dados de diferentes frentes de ação da DIGEO, como gestão de contratos, municipalização do CAR e mutirões de atendimento.
   ![Relatório DIGEO](https://github.com/samuel-c-santos/relatorios_bi/blob/main/dashboard_contratos.png?raw=true)
 
-- **[Projeto Floresta+ Amazônia](https://app.powerbi.com/groups/c6f91276-4085-4954-aae2-1b582e087e51/reports/436eec67-5a40-4405-b31e-df003bb50d90/ReportSection?experience=power-bi)**:
+- **[Projeto Floresta+ Amazônia]https://app.powerbi.com/view?r=eyJrIjoiOTZlNjBhYzEtMGZlZC00NDA1LTlhZjItYTgwNzA4MGZkY2E5IiwidCI6ImJiOWRkMWUwLTgzYmEtNGZmYS1hY2Q3LTQyNzJhZGY4ZGIyNSJ9)**:
   Painel de monitoramento das ações do projeto Floresta+ Amazônia.
   ![Relatório Floresta+](https://github.com/samuel-c-santos/relatorios_bi/blob/main/dashboard_floresta_mais_amazonia.png?raw=true)
 
