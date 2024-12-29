@@ -62,7 +62,7 @@ Bem-vindo ao meu portfólio! Aqui estão alguns dos projetos que desenvolvi util
 
 - **[Relatório de Iniciativas e Resultados da DIGEO/SEMAS-PA](https://app.powerbi.com/view?r=eyJrIjoiMzJhMTg4NzItMmI5Ny00YjQwLTgzN2UtOWQxMzU1M2JhNDk0IiwidCI6ImJiOWRkMWUwLTgzYmEtNGZmYS1hY2Q3LTQyNzJhZGY4ZGIyNSJ9)**:
   Integra dados de diferentes frentes de ação da DIGEO, como gestão de contratos, municipalização do CAR e mutirões de atendimento.
-  ![Relatório DIGEO](https://github.com/samuel-c-santos/relatorios_bi/blob/main/dashboard_contratos.png?raw=true)
+  ![Relatório DIGEO](https://github.com/samuel-c-santos/relatorios_bi/blob/main/dashboard_iniciativas.png?raw=true)
 
 - **[Projeto Floresta+ Amazônia](https://app.powerbi.com/view?r=eyJrIjoiOTZlNjBhYzEtMGZlZC00NDA1LTlhZjItYTgwNzA4MGZkY2E5IiwidCI6ImJiOWRkMWUwLTgzYmEtNGZmYS1hY2Q3LTQyNzJhZGY4ZGIyNSJ9)**:
   Painel de monitoramento das ações do projeto Floresta+ Amazônia.
