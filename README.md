@@ -59,6 +59,7 @@ Bem-vindo ao meu portfólio! Aqui estão alguns dos projetos que desenvolvi util
   [📥 Prioritask APK](https://drive.google.com/file/d/14dIKvjnv3AZPvIWdcUqe8dFGKYF9b8qD/view?usp=sharing)
 
 ---
+- **DASHBOARD NO POWER BI [CLIQUE AQUI](https://github.com/samuel-c-santos/relatorios_bi) PARA CONFERIR O REPOSITÓRIO COMPLETO.**
 
 - **[Relatório de Iniciativas e Resultados da DIGEO/SEMAS-PA](https://app.powerbi.com/view?r=eyJrIjoiMzJhMTg4NzItMmI5Ny00YjQwLTgzN2UtOWQxMzU1M2JhNDk0IiwidCI6ImJiOWRkMWUwLTgzYmEtNGZmYS1hY2Q3LTQyNzJhZGY4ZGIyNSJ9)**:
   Integra dados de diferentes frentes de ação da DIGEO, como gestão de contratos, municipalização do CAR e mutirões de atendimento.
