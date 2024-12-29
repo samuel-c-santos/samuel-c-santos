@@ -33,7 +33,7 @@ Bem-vindo ao meu portfólio! Aqui estão alguns dos projetos que desenvolvi util
 
 ---
 
-### [Análise Geoestatística de Solos (Parâmetro pHÁgua)](https://github.com/samuel-c-santos/krigarem_r)
+### [Análise Geoestatística usando R](https://github.com/samuel-c-santos/krigarem_r)
 - **Descrição**: Um projeto de análise de dados espaciais utilizando R para interpolar os valores de pH da água presente no solo em uma área de estudo. O pHÁgua é um indicador crucial da qualidade química do solo, influenciando sua fertilidade e adequação para cultivos agrícolas. O trabalho envolveu remoção de outliers, ajuste de semivariogramas, interpolação por krigagem e classificação espacial dos valores interpolados em categorias de acidez. Os resultados incluem mapas temáticos e gráficos estatísticos que facilitam a interpretação espacial da variabilidade do pH no solo.
 - **Tecnologias**: R, sf, gstat, ggplot2, raster
 - **Imagem do Resultado**:
