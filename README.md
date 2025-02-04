@@ -37,7 +37,11 @@ Bem-vindo ao meu portfólio! Aqui estão alguns dos projetos que desenvolvi util
 - **Descrição**: Um projeto de análise de dados espaciais utilizando R para interpolar os valores de pH da água presente no solo em uma área de estudo. O pHÁgua é um indicador crucial da qualidade química do solo, influenciando sua fertilidade e adequação para cultivos agrícolas. O trabalho envolveu remoção de outliers, ajuste de semivariogramas, interpolação por krigagem e classificação espacial dos valores interpolados em categorias de acidez. Os resultados incluem mapas temáticos e gráficos estatísticos que facilitam a interpretação espacial da variabilidade do pH no solo.
 - **Tecnologias**: R, sf, gstat, ggplot2, raster
 - **Imagem do Resultado**:
-  ![Krigagem do Parâmetro pHÁgua](https://github.com/samuel-c-santos/krigarem_r/blob/main/saida/Krigagem%20do%20parâmetro%20phagua.png?raw=true)
+
+<div align="center">
+  <img src="https://github.com/samuel-c-santos/krigarem_r/blob/main/saida/Krigagem%20do%20par%C3%A2metro%20phagua.png?raw=true" 
+       alt="Mapa de Fluxo" width="800"/>
+</div>
 
 ---
 
@@ -53,7 +57,20 @@ Bem-vindo ao meu portfólio! Aqui estão alguns dos projetos que desenvolvi util
   [🎥 Assista à demonstração completa no Vimeo](https://vimeo.com/1039919429)
 
 - **Captura de Tela**:  
-  <img src="https://github.com/samuel-c-santos/prioritask/blob/main/Screenshot_20241217_041628_Prioritask.jpg?raw=true" alt="Tela Principal" width="500"/>
+<div align="center">
+  <table>
+    <tr>
+      <td>
+        <img src="https://github.com/samuel-c-santos/prioritask/blob/main/Screenshot_20241217_041628_Prioritask.jpg?raw=true" 
+             alt="Tela Principal" width="300"/>
+      </td>
+      <td>
+        <img src="https://github.com/samuel-c-santos/prioritask/blob/main/Screenshot_20241217_044751_Prioritask.jpg?raw=true" 
+             alt="Segunda Tela" width="300"/>
+      </td>
+    </tr>
+  </table>
+</div>
 
 - **Download do APK para Testes**:  
   [📥 Prioritask APK](https://drive.google.com/file/d/14dIKvjnv3AZPvIWdcUqe8dFGKYF9b8qD/view?usp=sharing)
@@ -98,19 +115,6 @@ Com este sistema, grande parte dessas etapas são automatizadas, permitindo que 
 - **Clip Automático Base Local:** Filtra um imóvel específico, gera buffers de 15 km e recorta todas as camadas do projeto dentro desse limite.
 - **Exportação e Organização Automatizada:** Camadas recortadas são exportadas e organizadas em uma estrutura clara e eficiente.
 
-### Fluxograma do Sistema
-```mermaid
-graph TD
-    A[Início] --> B[Carregar Base Vetorial]
-    B --> C[Filtrar Imóvel]
-    C --> D{Imóvel Encontrado?}
-    D -- Sim --> E[Gerar Buffer de 15km]
-    D -- Não --> F[Fim]
-    E --> G[Clipar Camadas]
-    G --> H[Exportar Resultados]
-    H --> F[Fim]
-```
-
 ### Captura de Tela
 ![Clip Automático Base Local](https://github.com/nidgeo-digeo-semas/cenario_automatizado_qgis/blob/main/clip_automatico_base_local.png?raw=true)
 
@@ -126,7 +130,10 @@ graph TD
 - **Tecnologias Utilizadas**: Python, pandas, geopandas, matplotlib, pdfplumber.
 - **Repositório**: [Acesse o repositório no GitHub](https://github.com/samuel-c-santos/malaria-data-analysis)
 - **Imagem**:
-  ![Mapa de Fluxo](https://raw.githubusercontent.com/samuel-c-santos/malaria-data-analysis/main/maps/map_outputs/mapa_fluxo_casos_importados_2022.png)
+<div align="center">
+  <img src="https://raw.githubusercontent.com/samuel-c-santos/malaria-data-analysis/main/maps/map_outputs/mapa_fluxo_casos_importados_2022.png" 
+       alt="Mapa de Fluxo" width="500"/>
+</div>
 
 ---
 
@@ -143,16 +150,18 @@ Sou um profissional apaixonado por análise de dados e desenvolvimento de soluç
 ## Certificações
 
 <div align="center">
-  <img src="https://images.credly.com/size/680x680/images/42ce4209-8839-431a-9046-f2ce2e72e04b/Coursera_20Data_20Science_20Professional_20Certificate.png" alt="IBM Data Science" width="150" height="150">
-  <img src="https://images.credly.com/size/680x680/images/cbe961ef-3536-47a1-be43-14c461a3216e/image.png" alt="Google Business Intelligence" width="150" height="150">
-  <img src="https://images.credly.com/size/680x680/images/d41de2b7-cbc2-47ec-bcf1-ebecbe83872f/GCC_badge_DA_1000x1000.png" alt="Google Data Analytics" width="150" height="150">
+  <a href="https://www.coursera.org/account/accomplishments/professional-cert/S77137BIW3BB" target="_blank">
+    <img src="https://images.credly.com/size/680x680/images/42ce4209-8839-431a-9046-f2ce2e72e04b/Coursera_20Data_20Science_20Professional_20Certificate.png" 
+         alt="IBM Data Science" width="150" height="150">
+  </a>
+
+  <a href="https://www.coursera.org/account/accomplishments/professional-cert/6O9UOEAOR8SC" target="_blank">
+    <img src="https://images.credly.com/size/680x680/images/cbe961ef-3536-47a1-be43-14c461a3216e/image.png" 
+         alt="Google Business Intelligence" width="150" height="150">
+  </a>
+
+  <a href="https://www.coursera.org/account/accomplishments/professional-cert/UCL8PA52WE22" target="_blank">
+    <img src="https://images.credly.com/size/680x680/images/d41de2b7-cbc2-47ec-bcf1-ebecbe83872f/GCC_badge_DA_1000x1000.png" 
+         alt="Google Data Analytics" width="150" height="150">
+  </a>
 </div>
-
-### Certificado Profissional de IBM Data Science
-- [Ver Certificação](https://www.coursera.org/account/accomplishments/professional-cert/S77137BIW3BB)
-
-### Certificado Profissional de Google Business Intelligence
-- [Ver Certificação](https://www.coursera.org/account/accomplishments/professional-cert/6O9UOEAOR8SC)
-
-### Certificado Profissional de Google Data Analytics
-- [Ver Certificação](https://www.coursera.org/account/accomplishments/professional-cert/UCL8PA52WE22)
