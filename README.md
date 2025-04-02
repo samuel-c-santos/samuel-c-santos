@@ -164,4 +164,9 @@ Sou um profissional apaixonado por análise de dados e desenvolvimento de soluç
     <img src="https://images.credly.com/size/680x680/images/d41de2b7-cbc2-47ec-bcf1-ebecbe83872f/GCC_badge_DA_1000x1000.png" 
          alt="Google Data Analytics" width="150" height="150">
   </a>
+
+  <a href="https://www.coursera.org/account/accomplishments/professional-cert/FERD3VNVCZUX" target="_blank">
+    <img src="https://images.credly.com/size/680x680/images/9267a387-1a51-4ebe-8c05-976a5ec4c3d0/image.png" 
+         alt="Google Advanced Data Analytics" width="150" height="150">
+  </a>
 </div>
