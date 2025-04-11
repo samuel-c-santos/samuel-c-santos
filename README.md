@@ -120,6 +120,30 @@ Com este sistema, grande parte dessas etapas são automatizadas, permitindo que 
 
 ---
 
+### [Download de Imagens Landsat e Sentinel-2 com Google Earth Engine e Google Colab](https://github.com/samuel-c-santos/download_landsat_sentinel)
+
+### Resumo do Projeto
+Este projeto oferece um fluxo prático para baixar imagens de satélite Landsat e Sentinel-2 com base em áreas vetoriais (shapefile), utilizando o poder do **Google Earth Engine** aliado à interface acessível do **Google Colab**.  
+O usuário pode fazer upload de sua área de interesse, selecionar o ano e o período desejado e gerar um link direto para download da imagem com até 10% de cobertura de nuvens.
+
+É uma solução ideal para análises multitemporais em imóveis rurais, estudos ambientais e apoio à regularização ambiental (ex.: CAR).
+
+### Funcionalidades Principais
+- **Upload de shapefile (.zip)** com área de interesse.
+- **Seleção de ano e semestre (Landsat)** ou **intervalo de meses (Sentinel-2)**.
+- **Processamento na nuvem** com o Earth Engine.
+- **Link direto para download** em formato GeoTIFF com resolução de até 10 metros.
+
+### Capturas de Tela
+
+#### Landsat  
+![Demonstração Landsat](https://github.com/samuel-c-santos/download_landsat_sentinel/blob/main/demonstracao_landsat.png?raw=true)
+
+#### Sentinel-2  
+![Demonstração Sentinel-2](https://github.com/samuel-c-santos/download_landsat_sentinel/blob/main/demonstracao_sentinel.png?raw=true)
+
+---
+
 ### [Análise de Dados de Malária](https://github.com/samuel-c-santos/malaria-data-analysis)
 
 - **Descrição**: Este projeto apresenta um pipeline completo para análise de dados de malária, desde a extração de dados em mais de 1000 arquivos PDF, passando pela transformação e consolidação, até a geração de mapas geoespaciais. Inclui mapas de risco, densidade de kernel e análises de autocorrelação espacial para suporte à tomada de decisão em saúde pública.
