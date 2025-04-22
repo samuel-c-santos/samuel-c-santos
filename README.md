@@ -144,6 +144,29 @@ O usuário pode fazer upload de sua área de interesse, selecionar o ano e o per
 
 ---
 
+### [Sentinel Time Viewer – Comparação Temporal com Swipe no Google Earth Engine](https://github.com/samuel-c-santos/Sentinel-Time-Viewer)
+
+### Resumo do Projeto  
+Este projeto implementa uma ferramenta interativa para **visualização temporal de imagens Sentinel‑2**, utilizando o **Google Earth Engine** em conjunto com o **Google Colab** e a biblioteca `geemap`.
+
+Com foco na comparação ano a ano, o usuário pode fazer **upload de um shapefile** e visualizar as imagens correspondentes com **controle deslizante (swipe)**, permitindo identificar mudanças visuais com clareza.  
+O polígono vetorial da área de interesse é automaticamente estilizado e sobreposto em todas as imagens, mesmo com a alternância entre camadas.
+
+A solução é ideal para análise de cobertura do solo, detecção de mudanças e estudos ambientais de forma acessível e sem a necessidade de ferramentas locais.
+
+### Funcionalidades Principais  
+- **Upload de shapefile (.zip)** com a área de interesse.  
+- **Carregamento automático de imagens Sentinel-2** com menos de 10% de nuvens.  
+- **Comparação visual ano a ano com controle deslizante** interativo.  
+- **Sobreposição vetorial automática**, garantindo destaque da área em todas as camadas.  
+- **Execução 100% no navegador** via Google Colab.
+
+### 📷 Exemplo  
+
+![exemplo_swipe](https://github.com/samuel-c-santos/Sentinel-Time-Viewer/blob/main/exemplo_swipe.gif?raw=true)
+
+---
+
 ### [Análise de Dados de Malária](https://github.com/samuel-c-santos/malaria-data-analysis)
 
 - **Descrição**: Este projeto apresenta um pipeline completo para análise de dados de malária, desde a extração de dados em mais de 1000 arquivos PDF, passando pela transformação e consolidação, até a geração de mapas geoespaciais. Inclui mapas de risco, densidade de kernel e análises de autocorrelação espacial para suporte à tomada de decisão em saúde pública.
