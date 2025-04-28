@@ -1,10 +1,178 @@
-# Portfólio de análise de dados de Samuel Santos
+<!-- ===========================
+     Hero Section
+=========================== -->
+<div align="center">
+  <h1>
+    📂 <span style="color:#d35400;">Portfólio de Samuel Santos</span><br>
+    <small><em>Ciência de Dados | Geoprocessamento | Business Intelligence | Python | R | Meio Ambiente | Sustentabilidade</em></small>
+  </h1>
+  <p>
+    Seja bem-vindo(a)! Este repositório reúne meus projetos e estudos nas áreas de
+    <strong>ciência de dados, análise espacial, automação de processos e regularização ambiental</strong>.
+  </p>
+  <p>
+    Aqui você encontrará soluções que aplicam desde <strong>análise exploratória e inteligência de dados</strong> 
+    até <strong>geoprocessamento, dashboards, modelagem e uso de ferramentas de BI</strong>.
+  </p>
+  <p>
+    <!-- Propósito -->
+    <a href="#-propósito">
+      <img
+        src="https://img.shields.io/badge/🧭-Propósito-f39c12?style=flat-square"
+        alt="Propósito"
+        style="margin:4px; height:20px;"
+      />
+    </a>
+    <!-- Destaques -->
+    <a href="#-destaques">
+      <img
+        src="https://img.shields.io/badge/📊-Destaques-27ae60?style=flat-square"
+        alt="Destaques"
+        style="margin:4px; height:20px;"
+      />
+    </a>
+    <!-- LinkedIn -->
+    <a href="https://www.linkedin.com/in/samuelsantos-amb/" target="_blank">
+      <img
+        src="https://img.shields.io/badge/🔗-LinkedIn-0077B5?style=flat-square&logo=linkedin"
+        alt="LinkedIn"
+        style="margin:4px; height:20px;"
+      />
+    </a>
+    <!-- WhatsApp -->
+    <a href="https://wa.me/5591984741391" target="_blank">
+      <img
+        src="https://img.shields.io/badge/📱-WhatsApp-25D366?style=flat-square&logo=whatsapp"
+        alt="WhatsApp"
+        style="margin:4px; height:20px;"
+      />
+    </a>
+  </p>
+</div>
 
-Bem-vindo ao meu portfólio! Aqui estão alguns dos projetos que desenvolvi utilizando Python, Dash, Power BI, análise de dados e outras ferramentas. Sinta-se à vontade para explorar e me contatar caso queira discutir algum trabalho ou colaboração.
+<!-- ===========================
+     Certificações
+=========================== -->
+<h2 align="center">📜 Certificações</h2>
+
+<div align="center">
+  <a href="https://www.coursera.org/account/accomplishments/professional-cert/S77137BIW3BB" target="_blank">
+    <img src="https://images.credly.com/size/680x680/images/42ce4209-8839-431a-9046-f2ce2e72e04b/Coursera_20Data_20Science_20Professional_20Certificate.png" 
+         alt="IBM Data Science" width="130" height="130">
+  </a>
+
+  <a href="https://www.coursera.org/account/accomplishments/professional-cert/6O9UOEAOR8SC" target="_blank">
+    <img src="https://images.credly.com/size/680x680/images/cbe961ef-3536-47a1-be43-14c461a3216e/image.png" 
+         alt="Google Business Intelligence" width="130" height="130">
+  </a>
+
+  <a href="https://www.coursera.org/account/accomplishments/professional-cert/UCL8PA52WE22" target="_blank">
+    <img src="https://images.credly.com/size/680x680/images/d41de2b7-cbc2-47ec-bcf1-ebecbe83872f/GCC_badge_DA_1000x1000.png" 
+         alt="Google Data Analytics" width="130" height="130">
+  </a>
+
+  <a href="https://www.coursera.org/account/accomplishments/professional-cert/FERD3VNVCZUX" target="_blank">
+    <img src="https://images.credly.com/size/680x680/images/9267a387-1a51-4ebe-8c05-976a5ec4c3d0/image.png" 
+         alt="Google Advanced Data Analytics" width="130" height="130">
+  </a>
+</div>
 
 ---
 
-## Projetos em Destaque
+## 🧭 Propósito
+
+Este portfólio tem como objetivo apresentar minhas habilidades práticas em:
+- Ciência de dados aplicada ao meio ambiente e análise espacial
+- Análise exploratória de dados e geração de insights
+- Geoprocessamento, regularização ambiental e monitoramento territorial
+- Desenvolvimento de sistemas para automação de fluxos de dados e certificações
+- Visualizações interativas e painéis dinâmicos com foco em gestão pública e ambiental
+
+Os projetos são organizados em repositórios independentes, com exemplos, demonstrações e links úteis para facilitar a navegação.
+
+<!-- ===========================
+     Tecnologias & Ferramentas
+=========================== -->
+<h2 align="center">🧩 Tecnologias & Ferramentas</h2>
+
+<table align="center">
+  <thead>
+    <tr>
+      <th align="left" style="padding:8px 16px;background:#f0f0f0;">🔧 Ferramenta</th>
+      <th align="left" style="padding:8px 16px;background:#f0f0f0;">📋 Aplicação</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding:8px 16px;">Python</td>
+      <td style="padding:8px 16px;">Análise de dados, automação de processos e processamento espacial</td>
+    </tr>
+    <tr>
+      <td style="padding:8px 16px;">SQL</td>
+      <td style="padding:8px 16px;">Consultas, integração e modelagem de bancos de dados</td>
+    </tr>
+    <tr>
+      <td style="padding:8px 16px;">Dash / Plotly</td>
+      <td style="padding:8px 16px;">Dashboards analíticos e visualizações interativas</td>
+    </tr>
+    <tr>
+      <td style="padding:8px 16px;">Power BI</td>
+      <td style="padding:8px 16px;">Relatórios de inteligência de dados e KPIs</td>
+    </tr>
+    <tr>
+      <td style="padding:8px 16px;">Pandas / NumPy</td>
+      <td style="padding:8px 16px;">Manipulação, limpeza e transformação de dados</td>
+    </tr>
+    <tr>
+      <td style="padding:8px 16px;">Flask</td>
+      <td style="padding:8px 16px;">Desenvolvimento de sistemas web e APIs em Python</td>
+    </tr>
+    <tr>
+      <td style="padding:8px 16px;">PostgreSQL</td>
+      <td style="padding:8px 16px;">Bancos de dados relacionais e consultas geoespaciais (PostGIS)</td>
+    </tr>
+    <tr>
+      <td style="padding:8px 16px;">ReportLab</td>
+      <td style="padding:8px 16px;">Geração automatizada de documentos PDF</td>
+    </tr>
+    <tr>
+      <td style="padding:8px 16px;">GeoPandas</td>
+      <td style="padding:8px 16px;">Análise espacial e manipulação de dados geográficos em Python</td>
+    </tr>
+    <tr>
+      <td style="padding:8px 16px;">geemap</td>
+      <td style="padding:8px 16px;">Integração Python com o Google Earth Engine para processamento geoespacial</td>
+    </tr>
+    <tr>
+      <td style="padding:8px 16px;">QGIS</td>
+      <td style="padding:8px 16px;">Geoprocessamento, edição e análises espaciais</td>
+    </tr>
+    <tr>
+      <td style="padding:8px 16px;">Google Earth Engine</td>
+      <td style="padding:8px 16px;">Processamento de imagens de satélite e análises ambientais</td>
+    </tr>
+    <tr>
+      <td style="padding:8px 16px;">R</td>
+      <td style="padding:8px 16px;">Análises estatísticas e geoestatísticas (krigagem espacial)</td>
+    </tr>
+    <tr>
+      <td style="padding:8px 16px;">React Native</td>
+      <td style="padding:8px 16px;">Desenvolvimento de aplicativos móveis nativos</td>
+    </tr>
+    <tr>
+      <td style="padding:8px 16px;">JavaScript</td>
+      <td style="padding:8px 16px;">Programação web/mobile para aplicativos e dashboards</td>
+    </tr>
+    <tr>
+      <td style="padding:8px 16px;">pdfplumber</td>
+      <td style="padding:8px 16px;">Extração automatizada de dados estruturados de arquivos PDF</td>
+    </tr>
+  </tbody>
+</table>
+
+---
+
+## 📊 Destaques
 
 ### [Sistema de Certificação do Cadastro Ambiental Rural (CAR)](https://github.com/samuel-c-santos/sistema-certificacao-car)
 - **Descrição**: Sistema desenvolvido para automatizar a emissão de certificados do Cadastro Ambiental Rural (CAR), garantindo eficiência e controle rigoroso das emissões realizadas. Implementado para a Secretaria de Estado de Meio Ambiente e Sustentabilidade (SEMAS/PA).
@@ -76,30 +244,43 @@ Bem-vindo ao meu portfólio! Aqui estão alguns dos projetos que desenvolvi util
   [📥 Prioritask APK](https://drive.google.com/file/d/14dIKvjnv3AZPvIWdcUqe8dFGKYF9b8qD/view?usp=sharing)
 
 ---
-- **DASHBOARD NO POWER BI [CLIQUE AQUI](https://github.com/samuel-c-santos/relatorios_bi) PARA CONFERIR O REPOSITÓRIO COMPLETO.**
+### DASHBOARD NO POWER BI [CLIQUE AQUI](https://github.com/samuel-c-santos/relatorios_bi) PARA CONFERIR O REPOSITÓRIO COMPLETO.
 
-- **[Relatório de Iniciativas e Resultados da DIGEO/SEMAS-PA](https://app.powerbi.com/view?r=eyJrIjoiMzJhMTg4NzItMmI5Ny00YjQwLTgzN2UtOWQxMzU1M2JhNDk0IiwidCI6ImJiOWRkMWUwLTgzYmEtNGZmYS1hY2Q3LTQyNzJhZGY4ZGIyNSJ9)**:
+---
+
+- **[Relatório de Iniciativas e Resultados da DIGEO/SEMAS-PA](https://app.powerbi.com/view?r=eyJrIjoiMzJhMTg4NzItMmI5Ny00YjQwLTgzN2UtOWQxMzU1M2JhNDk0IiwidCI6ImJiOWRkMWUwLTgzYmEtNGZmYS1hY2Q3LTQyNzJhZGY4ZGIyNSJ9)**:  
   Integra dados de diferentes frentes de ação da DIGEO, como gestão de contratos, municipalização do CAR e mutirões de atendimento.
-  ![Relatório DIGEO](https://github.com/samuel-c-santos/relatorios_bi/blob/main/dashboard_iniciativas.png?raw=true)
 
-- **[Projeto Floresta+ Amazônia](https://app.powerbi.com/view?r=eyJrIjoiOTZlNjBhYzEtMGZlZC00NDA1LTlhZjItYTgwNzA4MGZkY2E5IiwidCI6ImJiOWRkMWUwLTgzYmEtNGZmYS1hY2Q3LTQyNzJhZGY4ZGIyNSJ9)**:
+<div align="center">
+  <img src="https://github.com/samuel-c-santos/relatorios_bi/blob/main/dashboard_iniciativas.png?raw=true" alt="Relatório DIGEO" width="800"/>
+</div>
+
+---
+
+- **[Projeto Floresta+ Amazônia](https://app.powerbi.com/view?r=eyJrIjoiOTZlNjBhYzEtMGZlZC00NDA1LTlhZjItYTgwNzA4MGZkY2E5IiwidCI6ImJiOWRkMWUwLTgzYmEtNGZmYS1hY2Q3LTQyNzJhZGY4ZGIyNSJ9)**:  
   Painel de monitoramento das ações do projeto Floresta+ Amazônia.
-  ![Relatório Floresta+](https://github.com/samuel-c-santos/relatorios_bi/blob/main/dashboard_floresta_mais_amazonia.png?raw=true)
 
-- **[Gestão de Contratos](https://app.powerbi.com/view?r=eyJrIjoiNGUzYTFkMTktNGM1Yy00M2VlLTg0YjItNjJmZGY4NGU2OTQyIiwidCI6ImJiOWRkMWUwLTgzYmEtNGZmYS1hY2Q3LTQyNzJhZGY4ZGIyNSJ9)**:
+<div align="center">
+  <img src="https://github.com/samuel-c-santos/relatorios_bi/blob/main/dashboard_floresta_mais_amazonia.png?raw=true" alt="Relatório Floresta+" width="800"/>
+</div>
+
+---
+
+- **[Gestão de Contratos](https://app.powerbi.com/view?r=eyJrIjoiNGUzYTFkMTktNGM1Yy00M2VlLTg0YjItNjJmZGY4NGU2OTQyIiwidCI6ImJiOWRkMWUwLTgzYmEtNGZmYS1hY2Q3LTQyNzJhZGY4ZGIyNSJ9)**:  
   Painel para acompanhar a execução de contratos fiscalizados pela DIGEO.
-  ![Gestão de Contratos](https://github.com/samuel-c-santos/relatorios_bi/blob/main/dashboard_contratos.png?raw=true)
 
-- **[Sobreposição de CAR em Áreas Protegidas](https://app.powerbi.com/view?r=eyJrIjoiNGQ4YzZmMWEtZTcwZC00MzY2LTk4MDctZjI1Y2I1ZTJiZTcyIiwidCI6ImJiOWRkMWUwLTgzYmEtNGZmYS1hY2Q3LTQyNzJhZGY4ZGIyNSJ9)**:
+<div align="center">
+  <img src="https://github.com/samuel-c-santos/relatorios_bi/blob/main/dashboard_contratos.png?raw=true" alt="Gestão de Contratos" width="800"/>
+</div>
+
+---
+
+- **[Sobreposição de CAR em Áreas Protegidas](https://app.powerbi.com/view?r=eyJrIjoiNGQ4YzZmMWEtZTcwZC00MzY2LTk4MDctZjI1Y2I1ZTJiZTcyIiwidCI6ImJiOWRkMWUwLTgzYmEtNGZmYS1hY2Q3LTQyNzJhZGY4ZGIyNSJ9)**:  
   Um dos 4 dashboards para monitorar sobreposições do CAR em terras indígenas, quilombos, unidades de conservação e assentamentos.
-  ![Sobreposições](https://github.com/samuel-c-santos/relatorios_bi/blob/main/sobreposicoes.png?raw=true)
 
-
-## Habilidades e Ferramentas
-- **Linguagens**: Python, SQL
-- **Ferramentas de Visualização**: Dash, Plotly, Power BI
-- **Análise de Dados**: Pandas, NumPy
-- **Geoprocessamento**: QGIS, Google Earth Engine
+<div align="center">
+  <img src="https://github.com/samuel-c-santos/relatorios_bi/blob/main/sobreposicoes.png?raw=true" alt="Sobreposições" width="800"/>
+</div>
 
 ---
 
@@ -117,6 +298,28 @@ Com este sistema, grande parte dessas etapas são automatizadas, permitindo que 
 
 ### Captura de Tela
 ![Clip Automático Base Local](https://github.com/nidgeo-digeo-semas/cenario_automatizado_qgis/blob/main/clip_automatico_base_local.png?raw=true)
+
+---
+
+### [Super-Resolução de Imagens Sentinel-2 com S2DR3](https://github.com/samuel-c-santos/s2dr3_inferencia_automatizada_sentinel2)
+
+### Resumo do Projeto  
+Este projeto demonstra a aplicação do modelo **S2DR3** para realizar **super-resolução de imagens Sentinel‑2**, ampliando a resolução espacial de cenas originais de 10m e 20m para **1 metro por pixel**, com alta qualidade e preservação espectral.
+
+A solução foi adaptada para buscar automaticamente a **melhor imagem disponível** utilizando o **Google Earth Engine**, priorizando cenas com **baixa cobertura de nuvens**, e em seguida processá-las com o modelo **S2DR3** no **Google Colab**.
+
+O projeto é ideal para quem deseja obter imagens Sentinel-2 com detalhes finos, sem necessidade de infraestrutura local avançada.
+
+### Funcionalidades Principais  
+- **Seleção automática da melhor imagem Sentinel-2** com baixa cobertura de nuvens.  
+- **Aplicação do modelo S2DR3** para super-resolução a 1m/px.  
+- **Geração de produtos multiespectrais georreferenciados** em formato GeoTIFF.  
+- **Execução completa no ambiente de nuvem** via Google Colab.  
+- **Download facilitado dos arquivos gerados**.
+
+### 📷 Exemplo  
+
+![demonstracao](https://github.com/samuel-c-santos/s2dr3_inferencia_automatizada_sentinel2/blob/main/demonstracao.png?raw=true)
 
 ---
 
@@ -191,29 +394,3 @@ Sou um profissional apaixonado por análise de dados e desenvolvimento de soluç
 - [Cartão Digital](https://dot.cards/samuelsantos)
 - E-mail: samuelsantosambiental@gmail.com
 - Veja também meu Portfólio de Geoprocessamento e Cartografia: [Explorar Portfólio](https://github.com/samuel-c-santos/cartografia)
-
----
-
-## Certificações
-
-<div align="center">
-  <a href="https://www.coursera.org/account/accomplishments/professional-cert/S77137BIW3BB" target="_blank">
-    <img src="https://images.credly.com/size/680x680/images/42ce4209-8839-431a-9046-f2ce2e72e04b/Coursera_20Data_20Science_20Professional_20Certificate.png" 
-         alt="IBM Data Science" width="150" height="150">
-  </a>
-
-  <a href="https://www.coursera.org/account/accomplishments/professional-cert/6O9UOEAOR8SC" target="_blank">
-    <img src="https://images.credly.com/size/680x680/images/cbe961ef-3536-47a1-be43-14c461a3216e/image.png" 
-         alt="Google Business Intelligence" width="150" height="150">
-  </a>
-
-  <a href="https://www.coursera.org/account/accomplishments/professional-cert/UCL8PA52WE22" target="_blank">
-    <img src="https://images.credly.com/size/680x680/images/d41de2b7-cbc2-47ec-bcf1-ebecbe83872f/GCC_badge_DA_1000x1000.png" 
-         alt="Google Data Analytics" width="150" height="150">
-  </a>
-
-  <a href="https://www.coursera.org/account/accomplishments/professional-cert/FERD3VNVCZUX" target="_blank">
-    <img src="https://images.credly.com/size/680x680/images/9267a387-1a51-4ebe-8c05-976a5ec4c3d0/image.png" 
-         alt="Google Advanced Data Analytics" width="150" height="150">
-  </a>
-</div>
