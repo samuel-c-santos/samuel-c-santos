@@ -257,7 +257,7 @@ Os projetos são organizados em repositórios independentes, com exemplos, demon
 
 ---
 
-- **[Projeto Floresta+ Amazônia](https://app.powerbi.com/view?r=eyJrIjoiOTZlNjBhYzEtMGZlZC00NDA1LTlhZjItYTgwNzA4MGZkY2E5IiwidCI6ImJiOWRkMWUwLTgzYmEtNGZmYS1hY2Q3LTQyNzJhZGY4ZGIyNSJ9)**:  
+- **Projeto Floresta+ Amazônia**:  
   Painel de monitoramento das ações do projeto Floresta+ Amazônia.
 
 <div align="center">
@@ -266,7 +266,7 @@ Os projetos são organizados em repositórios independentes, com exemplos, demon
 
 ---
 
-- **[Gestão de Contratos](https://app.powerbi.com/view?r=eyJrIjoiNGUzYTFkMTktNGM1Yy00M2VlLTg0YjItNjJmZGY4NGU2OTQyIiwidCI6ImJiOWRkMWUwLTgzYmEtNGZmYS1hY2Q3LTQyNzJhZGY4ZGIyNSJ9)**:  
+- **Gestão de Contratos**:  
   Painel para acompanhar a execução de contratos fiscalizados pela DIGEO.
 
 <div align="center">
