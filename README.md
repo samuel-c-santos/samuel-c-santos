@@ -31,6 +31,14 @@
         style="margin:4px; height:20px;"
       />
     </a>
+     <!-- Página Pessoal -->
+     <a href="https://samuel-c-santos.github.io/" target="_blank">
+          <img
+            src="https://img.shields.io/badge/🌐-Portfólio_Web-34495e?style=flat-square"
+            alt="Portfólio Web"
+            style="margin:4px; height:20px;"
+          />
+     </a>
     <!-- LinkedIn -->
     <a href="https://www.linkedin.com/in/samuelsantos-amb/" target="_blank">
       <img
