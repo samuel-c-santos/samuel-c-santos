@@ -4,7 +4,7 @@
 <div align="center">
   <h1>
     📂 <span style="color:#d35400;">Portfólio de Samuel Santos</span><br>
-    <small><em>Ciência de Dados | Geoprocessamento | Business Intelligence | Python | R | Meio Ambiente | Sustentabilidade</em></small>
+    <small><em>Ciência de Dados | Geoprocessamento | Business Intelligence | Python | R | SQL | Meio Ambiente | Sustentabilidade</em></small>
   </h1>
   <p>
     Seja bem-vindo(a)! Este repositório reúne meus projetos e estudos nas áreas de
