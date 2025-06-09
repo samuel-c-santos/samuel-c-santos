@@ -378,6 +378,29 @@ A solução é ideal para análise de cobertura do solo, detecção de mudanças
 
 ---
 
+### [GeoVisor Belém — Visualizador Interativo com Leaflet](https://samuel-c-santos.github.io/geovisor-belem/)
+
+### Resumo do Projeto
+
+**GeoVisor Belém** é uma aplicação web leve e responsiva desenvolvida com **HTML, JavaScript e Leaflet.js** para visualização e análise de camadas geoespaciais da cidade de Belém (PA). Hospedado via **GitHub Pages**, o projeto permite explorar bairros, logradouros e arquivos personalizados em formato GeoJSON.
+
+A ferramenta foi pensada para facilitar o acesso e a navegação por dados urbanos da região metropolitana de Belém, com foco em simplicidade e interatividade, sendo útil para fins educacionais, institucionais e comunitários.
+
+### Funcionalidades Principais
+
+* **Visualização interativa de camadas GeoJSON:** bairros (ativado por padrão) e logradouros (opcional).
+* **Busca por endereço com geocodificação Nominatim (OpenStreetMap).**
+* **Upload de arquivos `.geojson` personalizados com renderização imediata.**
+* **Download dos dados visíveis no mapa como GeoJSON.**
+* **Controle de camadas com ativação/desativação individual.**
+* **Interface responsiva compatível com desktop e dispositivos móveis.**
+
+### Captura de Tela
+
+[![GeoVisor Belém](https://github.com/samuel-c-santos/geovisor-belem/blob/master/demo/Captura%20de%20tela.png?raw=true)](https://samuel-c-santos.github.io/geovisor-belem/)
+
+---
+
 ### [Análise de Dados de Malária](https://github.com/samuel-c-santos/malaria-data-analysis)
 
 - **Descrição**: Este projeto apresenta um pipeline completo para análise de dados de malária, desde a extração de dados em mais de 1000 arquivos PDF, passando pela transformação e consolidação, até a geração de mapas geoespaciais. Inclui mapas de risco, densidade de kernel e análises de autocorrelação espacial para suporte à tomada de decisão em saúde pública.
