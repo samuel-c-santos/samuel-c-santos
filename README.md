@@ -397,9 +397,33 @@ A ferramenta foi pensada para facilitar o acesso e a navegação por dados urban
 
 ### Captura de Tela
 
-[![GeoVisor Belém](https://github.com/samuel-c-santos/geovisor-belem/blob/master/demo/Captura%20de%20tela.png?raw=true)](https://samuel-c-santos.github.io/geovisor-belem/)
+[![Visualizador Temático SICAR](https://github.com/samuel-c-santos/visualizador-tematico-sicar/blob/master/captura-de-tela.png?raw=true)](https://samuel-c-santos.github.io/visualizador-tematico-sicar/)
 
----
+-----
+
+### [Visualizador Temático SICAR — Análise Geoespacial para Dados Ambientais](https://www.google.com/search?q=https://samuel-c-santos.github.io/visualizador-tematico-sicar/)
+
+### Resumo do Projeto
+
+O **Visualizador Temático SICAR** é uma aplicação web desenvolvida com **HTML, JavaScript e Leaflet.js** para visualizar e exportar camadas temáticas provenientes de Shapefiles do **Sistema Nacional de Cadastro Ambiental Rural (SICAR)**. Hospedado via **GitHub Pages**, o projeto simplifica a análise de dados geoespaciais, permitindo aos usuários importar Shapefiles e exportar os temas em formatos GeoJSON e KML.
+
+A ferramenta foi criada para oferecer uma solução acessível e eficiente para a interação com dados ambientais do SICAR, com foco na usabilidade e na compatibilidade com softwares de SIG.
+
+### Funcionalidades Principais
+
+  * **Importação de Shapefile Zipado:** Carrega e processa arquivos Shapefile (`.zip`) diretamente do SICAR.
+  * **Visualização Temática Interativa:** Exibe as diferentes camadas de temas do Shapefile no mapa, com controle individual de visibilidade.
+  * **Exportação de Dados Confiável:** Permite a exportação das camadas temáticas para:
+      * **GeoJSON:** Formato versátil e amplamente aceito para intercâmbio de dados geoespaciais em ambientes web e GIS.
+      * **KML:** Formato compatível com Google Earth e outros softwares SIG, com correções específicas para garantir a legibilidade no QGIS, incluindo tratamento de caracteres acentuados e multi-geometrias.
+  * **Múltiplas Bases de Mapas:** Oferece diversas opções de camadas base, como Google Satélite, OpenStreetMap, CartoDB Voyager e imagens Sentinel-2 de diferentes anos.
+  * **Interface Intuitiva:** Projetado para uma experiência de usuário simples e direta.
+
+### Captura de Tela
+
+[](https://www.google.com/search?q=https://samuel-c-santos.github.io/visualizador-tematico-sicar/)
+
+-----
 
 ### [Análise de Dados de Malária](https://github.com/samuel-c-santos/malaria-data-analysis)
 
