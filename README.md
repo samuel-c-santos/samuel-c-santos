@@ -397,7 +397,7 @@ A ferramenta foi pensada para facilitar o acesso e a navegação por dados urban
 
 ### Captura de Tela
 
-[![Visualizador Temático SICAR](https://github.com/samuel-c-santos/visualizador-tematico-sicar/blob/master/captura-de-tela.png?raw=true)](https://samuel-c-santos.github.io/visualizador-tematico-sicar/)
+[![GeoVisor Belém](https://github.com/samuel-c-santos/geovisor-belem/blob/master/demo/Captura%20de%20tela.png?raw=true)](https://samuel-c-santos.github.io/geovisor-belem/)
 
 -----
 
@@ -421,7 +421,7 @@ A ferramenta foi criada para oferecer uma solução acessível e eficiente para 
 
 ### Captura de Tela
 
-[](https://www.google.com/search?q=https://samuel-c-santos.github.io/visualizador-tematico-sicar/)
+[![Visualizador Temático SICAR](https://github.com/samuel-c-santos/visualizador-tematico-sicar/blob/master/captura-de-tela.png?raw=true)](https://samuel-c-santos.github.io/visualizador-tematico-sicar/)
 
 -----
 
