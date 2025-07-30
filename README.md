@@ -425,6 +425,34 @@ A ferramenta foi criada para oferecer uma solução acessível e eficiente para 
 
 -----
 
+### [Iriri Land Cover – Visualizador de Mudanças de Uso e Cobertura do Solo (2006–2023)](https://samuel-c-santos.github.io/iriri-landcover-2006-2023/)
+
+### Resumo do Projeto
+
+O **Iriri Land Cover** é uma aplicação web interativa desenvolvida com **HTML, JavaScript, Leaflet.js e TailwindCSS**, projetada para visualizar e analisar as **mudanças na cobertura do solo** na **Floresta Estadual do Iriri (PA)** entre os anos de **2006 e 2023**. Utilizando dados da **Coleção 6 do MapBiomas**, processados no **Google Earth Engine** e refinados no **QGIS**, o app oferece uma ferramenta simples e intuitiva de interpretação espacial.
+
+Hospedado via **GitHub Pages**, o projeto permite comparar diferentes anos e identificar tipos de transições como remanescentes naturais, conversões antrópicas, regeneração e uso consolidado.
+
+### Funcionalidades Principais
+
+* **Visualização de Séries Temporais:** Permite alternar entre os mapas de cobertura do solo de 2006, 2023 e a transição entre eles.
+* **Classificação de Transição:** Detecta e categoriza as mudanças como:
+
+  * Remanescente de vegetação nativa
+  * Antropismo
+  * Antropismo consolidado
+  * Regeneração
+* **Legendas Dinâmicas:** Estilizadas conforme a paleta oficial do MapBiomas.
+* **Camadas Base Diversificadas:** Inclui Google Satélite, OpenStreetMap, Bing Maps, CartoDB Voyager e Sentinel-2.
+* **Popups Interativos:** Exibe os atributos completos de cada feição ao clicar no mapa.
+* **Interface Responsiva:** Compatível com dispositivos móveis e desktops.
+
+### Captura de Tela
+
+[![Iriri Land Cover – Captura de Tela](https://github.com/samuel-c-santos/iriri-landcover-2006-2023/blob/main/demo.png?raw=true)](https://samuel-c-santos.github.io/iriri-landcover-2006-2023/)
+
+-----
+
 ### [Análise de Dados de Malária](https://github.com/samuel-c-santos/malaria-data-analysis)
 
 - **Descrição**: Este projeto apresenta um pipeline completo para análise de dados de malária, desde a extração de dados em mais de 1000 arquivos PDF, passando pela transformação e consolidação, até a geração de mapas geoespaciais. Inclui mapas de risco, densidade de kernel e análises de autocorrelação espacial para suporte à tomada de decisão em saúde pública.
