@@ -425,7 +425,7 @@ A ferramenta foi criada para oferecer uma solução acessível e eficiente para 
 
 -----
 
-### [Iriri Land Cover – Visualizador de Mudanças de Uso e Cobertura do Solo (2006–2023)](https://samuel-c-santos.github.io/iriri-landcover-2006-2023/)
+### [Iriri Land Cover – Visualizador de Mudanças de Uso e Cobertura do Solo (2006–2023)](https://github.com/samuel-c-santos/iriri-landcover-2006-2023)
 
 ### Resumo do Projeto
 
