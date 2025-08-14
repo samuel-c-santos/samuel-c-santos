@@ -453,6 +453,30 @@ Hospedado via **GitHub Pages**, o projeto permite comparar diferentes anos e ide
 
 -----
 
+### [Visualizador de Viveiros - IDEFLOR-Bio](https://github.com/samuel-c-santos/viveiros-ideflorbio)
+
+### Resumo do Projeto
+
+O **Visualizador de Viveiros** é um aplicativo web interativo desenvolvido para o **IDEFLOR-Bio**, com o objetivo de visualizar e pesquisar informações geoespaciais sobre viveiros de mudas no Pará. A aplicação foi construída com **HTML, JavaScript, Leaflet.js e TailwindCSS**, e atende à demanda do processo **2025/2460154**. Ele oferece uma plataforma intuitiva para explorar dados de viveiros, municípios, Unidades de Conservação e regiões de integração.
+
+Hospedado via **GitHub Pages**, o projeto permite a análise de dados espaciais de forma rápida e eficiente.
+
+### Funcionalidades Principais
+
+  * **Filtro por Atributos:** Filtra os viveiros com base em colunas e valores específicos, como "Município", "Categoria de viveiro" e outros.
+  * **Controle de Camadas:** Permite ligar e desligar as camadas de viveiros, Unidades de Conservação, municípios e regiões de integração.
+  * **Legenda Dinâmica:** A legenda se atualiza automaticamente para refletir apenas as camadas ativas no mapa.
+  * **Download de Dados:** Possibilita baixar o conjunto de dados filtrado em formato GeoJSON.
+  * **Múltiplos Mapas Base:** Oferece diversas opções de fundo de mapa, incluindo Google Satellite, OpenStreetMap e Sentinel-2, para melhor contextualização.
+  * **Popups Interativos:** Exibe informações detalhadas de cada viveiro e camada ao clicar no mapa.
+  * **Interface Responsiva:** O layout se adapta para uma boa visualização em dispositivos móveis e desktops.
+
+### Captura de Tela
+
+[![Visualizador de Viveiros – Captura de Tela](https://github.com/samuel-c-santos/viveiros-ideflorbio/blob/main/demo/demo_geral.png?raw=true)](https://samuel-c-santos.github.io/viveiros-ideflorbio/)
+
+-----
+
 ### [Análise de Dados de Malária](https://github.com/samuel-c-santos/malaria-data-analysis)
 
 - **Descrição**: Este projeto apresenta um pipeline completo para análise de dados de malária, desde a extração de dados em mais de 1000 arquivos PDF, passando pela transformação e consolidação, até a geração de mapas geoespaciais. Inclui mapas de risco, densidade de kernel e análises de autocorrelação espacial para suporte à tomada de decisão em saúde pública.
