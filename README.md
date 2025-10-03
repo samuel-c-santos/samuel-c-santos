@@ -1,84 +1,56 @@
-<!-- ===========================
-     Hero Section
-=========================== -->
-<div align="center">
-  <h1>
-    📂 <span style="color:#d35400;">Portfólio de Samuel Santos</span><br>
-    <small><em>Ciência de Dados | Geoprocessamento | Business Intelligence | Python | R | SQL | Meio Ambiente | Sustentabilidade</em></small>
-  </h1>
-  <p>
-    Seja bem-vindo(a)! Este repositório reúne meus projetos e estudos nas áreas de
-    <strong>ciência de dados, análise espacial, automação de processos e regularização ambiental</strong>.
-  </p>
-  <p>
-    Aqui você encontrará soluções que aplicam desde <strong>análise exploratória e inteligência de dados</strong> 
-    até <strong>geoprocessamento, dashboards, modelagem e uso de ferramentas de BI</strong>.
-  </p>
-  <p>
-    <!-- Propósito -->
-    <a href="#-propósito">
-      <img
-        src="https://img.shields.io/badge/🧭-Propósito-f39c12?style=flat-square"
-        alt="Propósito"
-        style="margin:4px; height:20px;"
-      />
-    </a>
-    <!-- Destaques -->
-    <a href="#-destaques">
-      <img
-        src="https://img.shields.io/badge/📊-Destaques-27ae60?style=flat-square"
-        alt="Destaques"
-        style="margin:4px; height:20px;"
-      />
-    </a>
-     <!-- Página Pessoal -->
-     <a href="https://samuel-c-santos.github.io/" target="_blank">
-          <img
-            src="https://img.shields.io/badge/🌐-Portfólio_Web-34495e?style=flat-square"
-            alt="Portfólio Web"
-            style="margin:4px; height:20px;"
-          />
-     </a>
-    <!-- LinkedIn -->
-    <a href="https://www.linkedin.com/in/samuelsantos-amb/" target="_blank">
-      <img
-        src="https://img.shields.io/badge/🔗-LinkedIn-0077B5?style=flat-square&logo=linkedin"
-        alt="LinkedIn"
-        style="margin:4px; height:20px;"
-      />
-    </a>
-    <!-- WhatsApp -->
-    <a href="https://wa.me/5591984741391" target="_blank">
-      <img
-        src="https://img.shields.io/badge/📱-WhatsApp-25D366?style=flat-square&logo=whatsapp"
-        alt="WhatsApp"
-        style="margin:4px; height:20px;"
-      />
-    </a>
-  </p>
-</div>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=34D399&height=120&section=header"/>
 
-<!-- ===========================
-     Certificações
-=========================== -->
-<h2 align="center">📜 Certificações</h2>
+[![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=34D399&size=35&center=true&vCenter=true&width=1000&lines=Olá,+meu+nome+é+Samuel+Santos!;Ciência+de+Dados;Geoprocessamento;Business+Intelligence;Automação;Seja+bem-vindo!+:%29)](https://git.io/typing-svg)
 
-<div align="center">
+---
+
+## &nbsp;Sobre mim
+
+Sou um profissional apaixonado por análise de dados e desenvolvimento de soluções. **Mestre em Biologia Ambiental** e especialista em **Ciência de Dados**, tenho experiência em **geoprocessamento, regularização ambiental e automação de processos**. Meu objetivo é aplicar tecnologia para resolver problemas complexos, especialmente nas áreas de meio ambiente e gestão pública.
+
+---
+
+## &nbsp;Fatos rápidos
+- 🎓 Mestre em Biologia Ambiental e especialista em Ciência de Dados
+- 💻 Foco em Geoprocessamento, Business Intelligence e Desenvolvimento de Sistemas
+- 🚀 Experiência com Python, R, SQL, e ferramentas de Análise Espacial
+- 💡 Apaixonado por automação de fluxos de trabalho e geração de insights
+
+---
+
+## &nbsp;Conecte-se comigo
+<a href="mailto:samuelsantosambiental@gmail.com" target="_blank">
+  <img src="https://skillicons.dev/icons?i=gmail" alt="Gmail" style="vertical-align:middle;"/>
+</a>
+<a href="https://www.linkedin.com/in/samuelsantos-amb/" target="_blank">
+  <img src="https://skillicons.dev/icons?i=linkedin" alt="LinkedIn" style="vertical-align:middle;"/>
+</a>
+<a href="https://wa.me/5591984741391" target="_blank">
+  <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp" width="48" height="48" style="vertical-align:middle;"/>
+</a>
+<a href="https://github.com/samuel-c-santos" target="_blank">
+  <img src="https://skillicons.dev/icons?i=github" alt="GitHub" style="vertical-align:middle;"/>
+</a>
+<a href="https://samuel-c-santos.github.io/" target="_blank">
+  <img src="https://img.shields.io/badge/Website-555555?style=for-the-badge" alt="Website" style="vertical-align:middle;"/>
+</a>
+
+---
+## &nbsp;Certificações
+
+<div align="left">
   <a href="https://www.coursera.org/account/accomplishments/professional-cert/S77137BIW3BB" target="_blank">
     <img src="https://images.credly.com/size/680x680/images/42ce4209-8839-431a-9046-f2ce2e72e04b/Coursera_20Data_20Science_20Professional_20Certificate.png" 
          alt="IBM Data Science" width="130" height="130">
   </a>
-
   <a href="https://www.coursera.org/account/accomplishments/professional-cert/6O9UOEAOR8SC" target="_blank">
     <img src="https://images.credly.com/size/680x680/images/cbe961ef-3536-47a1-be43-14c461a3216e/image.png" 
          alt="Google Business Intelligence" width="130" height="130">
   </a>
-
   <a href="https://www.coursera.org/account/accomplishments/professional-cert/UCL8PA52WE22" target="_blank">
     <img src="https://images.credly.com/size/680x680/images/d41de2b7-cbc2-47ec-bcf1-ebecbe83872f/GCC_badge_DA_1000x1000.png" 
          alt="Google Data Analytics" width="130" height="130">
   </a>
-
   <a href="https://www.coursera.org/account/accomplishments/professional-cert/FERD3VNVCZUX" target="_blank">
     <img src="https://images.credly.com/size/680x680/images/9267a387-1a51-4ebe-8c05-976a5ec4c3d0/image.png" 
          alt="Google Advanced Data Analytics" width="130" height="130">
@@ -87,100 +59,74 @@
 
 ---
 
-## 🧭 Propósito
+## &nbsp;Tecnologias e Ferramentas
 
-Este portfólio tem como objetivo apresentar minhas habilidades práticas em:
-- Ciência de dados aplicada ao meio ambiente e análise espacial
-- Análise exploratória de dados e geração de insights
-- Geoprocessamento, regularização ambiental e monitoramento territorial
-- Desenvolvimento de sistemas para automação de fluxos de dados e certificações
-- Visualizações interativas e painéis dinâmicos com foco em gestão pública e ambiental
+### Análise de Dados & BI
+<span>
+  <img src="https://skillicons.dev/icons?i=python,r" alt="Python, R"/>
+  <img src="https://raw.githubusercontent.com/spyder-ide/spyder/master/branding/logo/logomark/spyder-logomark.svg" alt="Spyder" width="48" height="48" style="vertical-align:middle;"/>
+  <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Anaconda-Dark.svg" alt="Anaconda" width="48" height="48" style="vertical-align:middle;"/>
+  <img src="https://user-images.githubusercontent.com/7164864/217935870-c0bc60a3-6fc0-4047-b011-7b4c59488c91.png" alt="Streamlit" width="48" height="48" style="vertical-align:middle;"/>
+  <img src="https://img.shields.io/badge/NumPy-013243.svg?style=flat-square&logo=NumPy&logoColor=white" alt="NumPy" style="vertical-align:middle;"/>
+  <img src="https://img.shields.io/badge/pandas-150458.svg?style=flat-square&logo=pandas&logoColor=white" alt="Pandas" style="vertical-align:middle;"/>
+  <a href="https://www.microsoft.com/pt-br/power-bi" target="_blank">
+    <img src="https://github.com/microsoft/PowerBI-Icons/raw/main/PNG/Power-BI.png" alt="Power BI" width="48" height="48" style="vertical-align:middle;"/>
+  </a>
+</span>
 
-Os projetos são organizados em repositórios independentes, com exemplos, demonstrações e links úteis para facilitar a navegação.
+### Geoprocessamento & Banco de Dados
+<a href="https://github.com/samuel-c-santos">
+  <img src="https://skillicons.dev/icons?i=postgres,mysql,sqlite" alt="Geo & DB Skills"/>
+  <a href="https://qgis.org/" target="_blank">
+    <img src="https://github.com/qgis/QGIS/raw/master/images/icons/qgis-icon-512x512.png" alt="QGIS" width="48" height="48" style="vertical-align:middle;"/>
+  </a>
+</a>
 
-<!-- ===========================
-     Tecnologias & Ferramentas
-=========================== -->
-<h2 align="center">🧩 Tecnologias & Ferramentas</h2>
+### Desenvolvimento & Automação
+<a href="https://github.com/samuel-c-santos">
+  <img src="https://skillicons.dev/icons?i=js,html,css,flask,react,git" alt="Dev & Automation Skills"/>
+</a>
 
-<table align="center">
-  <thead>
-    <tr>
-      <th align="left" style="padding:8px 16px;background:#f0f0f0;">🔧 Ferramenta</th>
-      <th align="left" style="padding:8px 16px;background:#f0f0f0;">📋 Aplicação</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="padding:8px 16px;">Python</td>
-      <td style="padding:8px 16px;">Análise de dados, automação de processos e processamento espacial</td>
-    </tr>
-    <tr>
-      <td style="padding:8px 16px;">SQL</td>
-      <td style="padding:8px 16px;">Consultas, integração e modelagem de bancos de dados</td>
-    </tr>
-    <tr>
-      <td style="padding:8px 16px;">Dash / Plotly</td>
-      <td style="padding:8px 16px;">Dashboards analíticos e visualizações interativas</td>
-    </tr>
-    <tr>
-      <td style="padding:8px 16px;">Power BI</td>
-      <td style="padding:8px 16px;">Relatórios de inteligência de dados e KPIs</td>
-    </tr>
-    <tr>
-      <td style="padding:8px 16px;">Pandas / NumPy</td>
-      <td style="padding:8px 16px;">Manipulação, limpeza e transformação de dados</td>
-    </tr>
-    <tr>
-      <td style="padding:8px 16px;">Flask</td>
-      <td style="padding:8px 16px;">Desenvolvimento de sistemas web e APIs em Python</td>
-    </tr>
-    <tr>
-      <td style="padding:8px 16px;">PostgreSQL</td>
-      <td style="padding:8px 16px;">Bancos de dados relacionais e consultas geoespaciais (PostGIS)</td>
-    </tr>
-    <tr>
-      <td style="padding:8px 16px;">ReportLab</td>
-      <td style="padding:8px 16px;">Geração automatizada de documentos PDF</td>
-    </tr>
-    <tr>
-      <td style="padding:8px 16px;">GeoPandas</td>
-      <td style="padding:8px 16px;">Análise espacial e manipulação de dados geográficos em Python</td>
-    </tr>
-    <tr>
-      <td style="padding:8px 16px;">geemap</td>
-      <td style="padding:8px 16px;">Integração Python com o Google Earth Engine para processamento geoespacial</td>
-    </tr>
-    <tr>
-      <td style="padding:8px 16px;">QGIS</td>
-      <td style="padding:8px 16px;">Geoprocessamento, edição e análises espaciais</td>
-    </tr>
-    <tr>
-      <td style="padding:8px 16px;">Google Earth Engine</td>
-      <td style="padding:8px 16px;">Processamento de imagens de satélite e análises ambientais</td>
-    </tr>
-    <tr>
-      <td style="padding:8px 16px;">R</td>
-      <td style="padding:8px 16px;">Análises estatísticas e geoestatísticas (krigagem espacial)</td>
-    </tr>
-    <tr>
-      <td style="padding:8px 16px;">React Native</td>
-      <td style="padding:8px 16px;">Desenvolvimento de aplicativos móveis nativos</td>
-    </tr>
-    <tr>
-      <td style="padding:8px 16px;">JavaScript</td>
-      <td style="padding:8px 16px;">Programação web/mobile para aplicativos e dashboards</td>
-    </tr>
-    <tr>
-      <td style="padding:8px 16px;">pdfplumber</td>
-      <td style="padding:8px 16px;">Extração automatizada de dados estruturados de arquivos PDF</td>
-    </tr>
-  </tbody>
-</table>
+### Plataformas & Ferramentas
+<a href="https://github.com/samuel-c-santos">
+  <img src="https://skillicons.dev/icons?i=vscode,github,figma,docker,gcp,windows,heroku,render" alt="Platform & Tools Skills"/>
+</a>
 
 ---
 
-## 📊 Destaques
+## &nbsp;Estatísticas do GitHub
+
+<a href="https://github.com/samuel-c-santos">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=samuel-c-santos&show_icons=true&theme=default&include_all_commits=true&count_private=true&icon_color=d35400&text_color=717171&bg_color=ffffff"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=samuel-c-santos&layout=compact&langs_count=6&theme=default&text_color=717171&bg_color=ffffff"/>
+</a>
+
+---
+
+## &nbsp;Gráfico de Atividades
+
+<a href="https://github.com/samuel-c-santos">
+  <img alt="Samuel's Activity Graph" src="https://github-readme-activity-graph.vercel.app/graph?username=samuel-c-santos&bg_color=ffffff&color=d35400&line=d35400&point=d35400&area=true&hide_border=true" />
+</a>
+
+---
+<div align="center">
+  <h1>
+         <span style="color:#d35400;">Portfólio de Samuel Santos</span><br>
+    <small><em>Ciência de Dados | Geoprocessamento | Business Intelligence | Python | R | SQL | Meio Ambiente | Sustentabilidade</em></small>
+  </h1>
+  <p>
+    Este repositório reúne meus projetos e estudos nas áreas de
+    <strong>ciência de dados, análise espacial, automação de processos e regularização ambiental</strong>.
+  </p>
+  <p>
+    Aqui você encontrará soluções que aplicam desde <strong>análise exploratória e inteligência de dados</strong> 
+    até <strong>geoprocessamento, dashboards, modelagem e uso de ferramentas de BI</strong>.
+  </p>
+</div>
+---
+
+## Destaques
 
 ### [Sistema de Certificação do Cadastro Ambiental Rural (CAR)](https://github.com/samuel-c-santos/sistema-certificacao-car)
 - **Descrição**: Sistema desenvolvido para automatizar a emissão de certificados do Cadastro Ambiental Rural (CAR), garantindo eficiência e controle rigoroso das emissões realizadas. Implementado para a Secretaria de Estado de Meio Ambiente e Sustentabilidade (SEMAS/PA).
@@ -493,9 +439,6 @@ Hospedado via **GitHub Pages**, o projeto permite a análise de dados espaciais 
 </div>
 
 ---
-
-## Sobre Mim
-Sou um profissional apaixonado por análise de dados e desenvolvimento de soluções baseadas em dados. Mestre em Biologia Ambiental e especialista em Ciencia de Dados, Tenho experiência em geoprocessamento, regularização ambiental e ciência de dados.
 
 - [LinkedIn](https://www.linkedin.com/in/samuelsantos-amb/)
 - [Cartão Digital](https://dot.cards/samuelsantos)
