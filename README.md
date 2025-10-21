@@ -421,6 +421,21 @@ Hospedado via **GitHub Pages**, o projeto permite a análise de dados espaciais 
 
 [![Visualizador de Viveiros – Captura de Tela](https://github.com/samuel-c-santos/viveiros-ideflorbio/blob/main/demo/demo_geral.png?raw=true)](https://samuel-c-santos.github.io/viveiros-ideflorbio/)
 
+---
+
+### [Análise de Manguezais (PA-458) com Séries Temporais (NDVI & BFAST)](https://github.com/samuel-c-santos/manguezais-pa458-monitoramento)
+- **Descrição**: Trabalho de Conclusão de Curso (Especialização/UFRA) que avalia a dinâmica temporal de manguezais na rodovia PA-458 (Bragança-PA). O estudo combina séries temporais de NDVI (Sentinel-2) com o modelo BFAST para identificar e quantificar rupturas estruturais na vegetação entre 2019 e 2024.
+- **Destaques da Análise**:
+  - Detecção da principal ruptura estrutural (queda abrupta de NDVI) em **Janeiro de 2022** para ambos os lados da rodovia.
+  - O lado Leste, embora historicamente mais vigoroso, apresentou **menor resiliência**, com uma queda de magnitude maior (Magnitude: -0.244) e estabilizando em um patamar inferior.
+  - O lado Oeste manteve NDVI consistentemente inferior, refletindo o impacto histórico do bloqueio hidrológico causado pela estrada.
+- **Tecnologias**: R (BFAST, forecast), Python (Google Earth Engine, PyQGIS), QGIS
+- **Imagem da Análise**:
+<div align="center">
+  <img src="https://github.com/samuel-c-santos/manguezais-pa458-monitoramento/blob/main/bfastmonitor_Oeste.png?raw=true"
+       alt="Análise BFAST Monitor - Lado Oeste" width="800"/>
+</div>
+
 -----
 
 ### [Análise de Dados de Malária](https://github.com/samuel-c-santos/malaria-data-analysis)
