@@ -202,6 +202,20 @@ Sou um profissional apaixonado por análise de dados e desenvolvimento de soluç
 
 ---
 
+### Painel de Desempenho: Análise da Política de CPAs Compensatórias
+
+  - **Descrição**: Um dashboard interativo em Power BI que monitora o alcance e a adesão à política de **Cota de Proteção Ambiental (CPA) Compensatória**, regulamentada pelo Decreto Nº 4.613/2025.A CPA Compensatória é um instrumento que permite a imóveis rurais com passivo de Reserva Legal (identificados pelo CAR) compensar essa área através da aquisição de cotas equivalentes a 1 hectare em Unidades de Conservação (UCs) estaduais. O painel visualiza:
+      - Aquisições de CPAs por Município de origem do CAR;
+      - Requerimentos de CPAs por Município de origem do CAR;
+      - Aquisições por Região de Integração;
+      - Aquisições por Unidade de Conservação (UC) que disponibiliza as cotas.
+  - **Diferencial Técnico**: Para otimizar o desempenho e garantir dados sempre atualizados, o painel foi desenvolvido utilizando o modo **DirectQuery**. Ele se conecta diretamente ao banco de dados PostgreSQL (via ODBC), executando a consulta SQL nativa para que todo o processamento ocorra no servidor, sem a necessidade de importação e processamento de dados no Power BI.
+  - **Objetivo**: Consolidar e visualizar dados estratégicos sobre a implementação da política de CPA, facilitando o monitoramento da distribuição geográfica da demanda (municípios com passivo) e da oferta (UCs) para a tomada de decisão pelo IDEFLOR-Bio e SEMAS.
+  - **Captura de Tela**:
+  ![Painel CPA](https://github.com/samuel-c-santos/relatorios_bi/blob/main/dash_cpa.png?raw=true)
+
+---
+
 - **[Relatório de Iniciativas e Resultados da DIGEO/SEMAS-PA](https://app.powerbi.com/view?r=eyJrIjoiMzJhMTg4NzItMmI5Ny00YjQwLTgzN2UtOWQxMzU1M2JhNDk0IiwidCI6ImJiOWRkMWUwLTgzYmEtNGZmYS1hY2Q3LTQyNzJhZGY4ZGIyNSJ9)**:  
   Integra dados de diferentes frentes de ação da DIGEO, como gestão de contratos, municipalização do CAR e mutirões de atendimento.
 
