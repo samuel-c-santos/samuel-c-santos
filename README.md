@@ -32,7 +32,7 @@ Sou um profissional apaixonado por análise de dados e desenvolvimento de soluç
   <img src="https://skillicons.dev/icons?i=github" alt="GitHub" style="vertical-align:middle;"/>
 </a>
 <a href="https://samuel-c-santos.github.io/" target="_blank">
-  <img src="https://img.shields.io/badge/Website-555555?style=for-the-badge" alt="Website" style="vertical-align:middle;"/>
+  <img src="https://github.com/icons8/flat-color-icons/blob/master/svg/globe.svg" alt="Website" width="48" height="48" style="vertical-align:middle;"/>
 </a>
 
 ---
@@ -66,12 +66,11 @@ Sou um profissional apaixonado por análise de dados e desenvolvimento de soluç
   <img src="https://skillicons.dev/icons?i=python,r" alt="Python, R"/>
   <img src="https://raw.githubusercontent.com/spyder-ide/spyder/master/branding/logo/logomark/spyder-logomark.svg" alt="Spyder" width="48" height="48" style="vertical-align:middle;"/>
   <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Anaconda-Dark.svg" alt="Anaconda" width="48" height="48" style="vertical-align:middle;"/>
-  <img src="https://user-images.githubusercontent.com/7164864/217935870-c0bc60a3-6fc0-4047-b011-7b4c59488c91.png" alt="Streamlit" width="48" height="48" style="vertical-align:middle;"/>
-  <img src="https://img.shields.io/badge/NumPy-013243.svg?style=flat-square&logo=NumPy&logoColor=white" alt="NumPy" style="vertical-align:middle;"/>
-  <img src="https://img.shields.io/badge/pandas-150458.svg?style=flat-square&logo=pandas&logoColor=white" alt="Pandas" style="vertical-align:middle;"/>
   <a href="https://www.microsoft.com/pt-br/power-bi" target="_blank">
     <img src="https://github.com/microsoft/PowerBI-Icons/raw/main/PNG/Power-BI.png" alt="Power BI" width="48" height="48" style="vertical-align:middle;"/>
   </a>
+  <img src="https://avatars.githubusercontent.com/u/21206976?s=200&v=4" alt="Pandas" width="48" height="48" style="vertical-align:middle;"/>
+</a>
 </span>
 
 ### Geoprocessamento & Banco de Dados
@@ -86,10 +85,11 @@ Sou um profissional apaixonado por análise de dados e desenvolvimento de soluç
 <a href="https://github.com/samuel-c-santos">
   <img src="https://skillicons.dev/icons?i=js,html,css,flask,react,git" alt="Dev & Automation Skills"/>
 </a>
+   <img src="https://user-images.githubusercontent.com/7164864/217935870-c0bc60a3-6fc0-4047-b011-7b4c59488c91.png" alt="Streamlit" width="48" height="48" style="vertical-align:middle;"/>
 
 ### Plataformas & Ferramentas
 <a href="https://github.com/samuel-c-santos">
-  <img src="https://skillicons.dev/icons?i=vscode,github,figma,docker,gcp,windows,heroku,render" alt="Platform & Tools Skills"/>
+  <img src="https://skillicons.dev/icons?i=vscode,github,gcp,heroku,render" alt="Platform & Tools Skills"/>
 </a>
 
 ---
