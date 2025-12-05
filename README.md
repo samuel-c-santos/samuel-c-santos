@@ -6,7 +6,7 @@
 
 ## &nbsp;Sobre mim
 
-Sou um profissional apaixonado por análise de dados e desenvolvimento de soluções. **Mestre em Biologia Ambiental** e especialista em **Ciência de Dados**, tenho experiência em **geoprocessamento, regularização ambiental e automação de processos**. Meu objetivo é aplicar tecnologia para resolver problemas complexos, especialmente nas áreas de meio ambiente e gestão pública.
+Sou um profissional dedicado à análise de dados e desenvolvimento de soluções. **Mestre em Biologia Ambiental** e especialista em **Ciência de Dados**, tenho experiência em **geoprocessamento, regularização ambiental e automação de processos**. Meu objetivo é aplicar tecnologia para resolver problemas complexos, especialmente nas áreas de meio ambiente e gestão pública.
 
 ---
 
@@ -90,15 +90,6 @@ Sou um profissional apaixonado por análise de dados e desenvolvimento de soluç
 ### Plataformas & Ferramentas
 <a href="https://github.com/samuel-c-santos">
   <img src="https://skillicons.dev/icons?i=vscode,github,gcp,heroku,render" alt="Platform & Tools Skills"/>
-</a>
-
----
-
-## &nbsp;Estatísticas do GitHub
-
-<a href="https://github.com/samuel-c-santos">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=samuel-c-santos&show_icons=true&theme=default&include_all_commits=true&count_private=true&icon_color=d35400&text_color=717171&bg_color=ffffff&cache_seconds=7200"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=samuel-c-santos&layout=compact&langs_count=6&theme=default&text_color=717171&bg_color=ffffff&cache_seconds=7200"/>
 </a>
 
 ---
