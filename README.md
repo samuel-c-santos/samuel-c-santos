@@ -97,8 +97,8 @@ Sou um profissional apaixonado por análise de dados e desenvolvimento de soluç
 ## &nbsp;Estatísticas do GitHub
 
 <a href="https://github.com/samuel-c-santos">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=samuel-c-santos&show_icons=true&theme=default&include_all_commits=true&count_private=true&icon_color=d35400&text_color=717171&bg_color=ffffff"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=samuel-c-santos&layout=compact&langs_count=6&theme=default&text_color=717171&bg_color=ffffff"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=samuel-c-santos&show_icons=true&theme=default&include_all_commits=true&count_private=true&icon_color=d35400&text_color=717171&bg_color=ffffff&cache_seconds=7200"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=samuel-c-santos&layout=compact&langs_count=6&theme=default&text_color=717171&bg_color=ffffff&cache_seconds=7200"/>
 </a>
 
 ---
@@ -124,9 +124,36 @@ Sou um profissional apaixonado por análise de dados e desenvolvimento de soluç
     até <strong>geoprocessamento, dashboards, modelagem e uso de ferramentas de BI</strong>.
   </p>
 </div>
----
+
+----
 
 ## Destaques
+
+### [ArchiSearch: Semantic Search for Architectural References](https://github.com/samuel-c-santos/ArchiSearch)
+
+  * **Descrição**: Ferramenta local (*on-premise*) que resolve o problema de **acessibilidade de grandes bibliotecas visuais** para arquitetos e designers. Utiliza Inteligência Artificial (CLIP) e busca vetorial (FAISS) para localizar referências visuais no disco rígido através de contexto semântico e similaridade visual, eliminando a dependência de nomes de arquivos ou tags manuais.
+
+  * **Motivação Principal**: A dificuldade em encontrar imagens específicas dentro de acervos locais devido à rigidez da organização em pastas, onde uma única imagem pode pertencer a múltiplas categorias (ex: colonial, madeira, jardim vertical).
+
+  * **Tecnologias Core**:
+
+      * **IA/ML**: OpenAI **CLIP** (Contrastive Language-Image Pre-training)
+      * **Indexação Vetorial**: **FAISS** (Facebook AI Similarity Search)
+      * **Linguagem/Framework**: Python (PyTorch, Transformers), Flask, TailwindCSS.
+
+  * **Principais Funcionalidades**:
+
+      * **Busca por Linguagem Natural**: Encontra imagens através de descrições contextuais (ex: "interiores com iluminação natural").
+      * **Reverse Image Search (Busca Visual)**: Localiza arquivos visualmente similares no acervo local a partir do *upload* de uma imagem de referência.
+      * **Deep Link com o SO**: Abre o arquivo encontrado diretamente na sua pasta do sistema operacional.
+      * **Privacidade**: Todo o processamento e indexação são realizados localmente.
+
+  * **Como a IA Funciona**: O modelo CLIP converte tanto a imagem quanto o texto em **vetores matemáticos (embeddings)**. Esses vetores são armazenados e rapidamente consultados pelo FAISS. A busca retorna a imagem cujo vetor está matematicamente mais próximo do vetor da sua consulta (texto ou imagem).
+
+  * **Captura de Tela (Busca Visual)**:
+    ![Busca por Similaridade de Imagem em acervo local - Cabana](https://github.com/samuel-c-santos/ArchiSearch/blob/main/static/demo/img_cabana.png?raw=true)
+
+-----
 
 ### [Sistema de Certificação do Cadastro Ambiental Rural (CAR)](https://github.com/samuel-c-santos/sistema-certificacao-car)
 - **Descrição**: Sistema desenvolvido para automatizar a emissão de certificados do Cadastro Ambiental Rural (CAR), garantindo eficiência e controle rigoroso das emissões realizadas. Implementado para a Secretaria de Estado de Meio Ambiente e Sustentabilidade (SEMAS/PA).
