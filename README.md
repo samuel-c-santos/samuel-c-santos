@@ -97,7 +97,7 @@ Sou um profissional dedicado à análise de dados e desenvolvimento de soluçõe
 ## &nbsp;Gráfico de Atividades
 
 <a href="https://github.com/samuel-c-santos">
-  <img alt="Samuel's Activity Graph" src="https://github-readme-activity-graph.vercel.app/graph?username=samuel-c-santos&bg_color=ffffff&color=d35400&line=d35400&point=d35400&area=true&hide_border=true" />
+  <img alt="Samuel's Activity Graph" src="https://github-readme-activity-graph.vercel.app/graph?username=samuel-c-santos&bg_color=ffffff&color=74c67a&line=74c67a&point=74c67a&area=true&hide_border=true" />
 </a>
 
 ---
