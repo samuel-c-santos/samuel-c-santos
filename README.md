@@ -104,7 +104,6 @@ Sou um profissional dedicado à análise de dados e desenvolvimento de soluçõe
 <div align="center">
   <h1>
          <span style="color:#d35400;">Portfólio de Samuel Santos</span><br>
-    <small><em>Ciência de Dados | Geoprocessamento | Business Intelligence | Python | R | SQL | Meio Ambiente | Sustentabilidade</em></small>
   </h1>
   <p>
     Este repositório reúne meus projetos e estudos nas áreas de
@@ -118,7 +117,7 @@ Sou um profissional dedicado à análise de dados e desenvolvimento de soluçõe
 
 ----
 
-## Destaques
+## &nbsp;Projetos
 
 ### [ArchiSearch: Semantic Search for Architectural References](https://github.com/samuel-c-santos/ArchiSearch)
 
