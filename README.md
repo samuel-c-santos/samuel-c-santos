@@ -378,7 +378,7 @@ A ferramenta foi pensada para facilitar o acesso e a navegação por dados urban
 
 -----
 
-### [Visualizador Temático SICAR — Análise Geoespacial para Dados Ambientais](https://www.google.com/search?q=https://samuel-c-santos.github.io/visualizador-tematico-sicar/)
+### [Visualizador Temático SICAR — Análise Geoespacial para Dados Ambientais](https://samuel-c-santos.github.io/visualizador-tematico-sicar/)
 
 ### Resumo do Projeto
 
