@@ -164,7 +164,7 @@ Sou um profissional dedicado à análise de dados e desenvolvimento de soluçõe
   - [Geração por Lista](https://player.vimeo.com/video/1035004865?h=2d347da33e)
 
 - **Captura de Tela**:
-  ![Página Inicial](https://github.com/samuel-c-santos/sistema-certificacao-car/blob/main/index.png?raw=true)
+  ![Página Inicial](https://github.com/samuel-c-santos/sistema-certificacao-car/blob/main/demo/index.jpg?raw=true)
 
 ---
 
