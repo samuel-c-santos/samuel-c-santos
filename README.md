@@ -100,10 +100,15 @@ Sou um profissional dedicado à análise de dados e desenvolvimento de soluçõe
   <img alt="Samuel's Activity Graph" src="https://github-readme-activity-graph.vercel.app/graph?username=samuel-c-santos&bg_color=ffffff&color=74c67a&line=74c67a&point=74c67a&area=true&hide_border=true" />
 </a>
 
+
 ---
+
+
 <div align="center">
   <h1>
-         <span style="color:#d35400;">Portfólio de Samuel Santos</span><br>
+    <a href="https://samuelsantos.site/" target="_blank" style="color:#d35400; text-decoration:none;">
+      Portfólio de Samuel Santos↗
+    </a>
   </h1>
   <p>
     Este repositório reúne meus projetos e estudos nas áreas de
