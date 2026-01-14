@@ -124,102 +124,30 @@ Sou um profissional dedicado à análise de dados e desenvolvimento de soluçõe
 
 ## &nbsp;Projetos
 
-### [ArchiSearch: Semantic Search for Architectural References](https://github.com/samuel-c-santos/ArchiSearch)
+### [Visualizador de Viveiros - IDEFLOR-Bio](https://github.com/samuel-c-santos/viveiros-ideflorbio)
 
-  * **Descrição**: Ferramenta local (*on-premise*) que resolve o problema de **acessibilidade de grandes bibliotecas visuais** para arquitetos e designers. Utiliza Inteligência Artificial (CLIP) e busca vetorial (FAISS) para localizar referências visuais no disco rígido através de contexto semântico e similaridade visual, eliminando a dependência de nomes de arquivos ou tags manuais.
+### Resumo do Projeto
 
-  * **Motivação Principal**: A dificuldade em encontrar imagens específicas dentro de acervos locais devido à rigidez da organização em pastas, onde uma única imagem pode pertencer a múltiplas categorias (ex: colonial, madeira, jardim vertical).
+O **Visualizador de Viveiros** é um aplicativo web interativo desenvolvido para o **IDEFLOR-Bio**, com o objetivo de visualizar e pesquisar informações geoespaciais sobre viveiros de mudas no Pará. A aplicação foi construída com **HTML, JavaScript, Leaflet.js e TailwindCSS**, e atende à demanda do processo **2025/2460154**. Ele oferece uma plataforma intuitiva para explorar dados de viveiros, municípios, Unidades de Conservação e regiões de integração.
 
-  * **Tecnologias Core**:
+Hospedado via **GitHub Pages**, o projeto permite a análise de dados espaciais de forma rápida e eficiente.
 
-      * **IA/ML**: OpenAI **CLIP** (Contrastive Language-Image Pre-training)
-      * **Indexação Vetorial**: **FAISS** (Facebook AI Similarity Search)
-      * **Linguagem/Framework**: Python (PyTorch, Transformers), Flask, TailwindCSS.
+### Funcionalidades Principais
 
-  * **Principais Funcionalidades**:
+  * **Filtro por Atributos:** Filtra os viveiros com base em colunas e valores específicos, como "Município", "Categoria de viveiro" e outros.
+  * **Controle de Camadas:** Permite ligar e desligar as camadas de viveiros, Unidades de Conservação, municípios e regiões de integração.
+  * **Legenda Dinâmica:** A legenda se atualiza automaticamente para refletir apenas as camadas ativas no mapa.
+  * **Download de Dados:** Possibilita baixar o conjunto de dados filtrado em formato GeoJSON.
+  * **Múltiplos Mapas Base:** Oferece diversas opções de fundo de mapa, incluindo Google Satellite, OpenStreetMap e Sentinel-2, para melhor contextualização.
+  * **Popups Interativos:** Exibe informações detalhadas de cada viveiro e camada ao clicar no mapa.
+  * **Interface Responsiva:** O layout se adapta para uma boa visualização em dispositivos móveis e desktops.
 
-      * **Busca por Linguagem Natural**: Encontra imagens através de descrições contextuais (ex: "interiores com iluminação natural").
-      * **Reverse Image Search (Busca Visual)**: Localiza arquivos visualmente similares no acervo local a partir do *upload* de uma imagem de referência.
-      * **Deep Link com o SO**: Abre o arquivo encontrado diretamente na sua pasta do sistema operacional.
-      * **Privacidade**: Todo o processamento e indexação são realizados localmente.
+### Captura de Tela
 
-  * **Como a IA Funciona**: O modelo CLIP converte tanto a imagem quanto o texto em **vetores matemáticos (embeddings)**. Esses vetores são armazenados e rapidamente consultados pelo FAISS. A busca retorna a imagem cujo vetor está matematicamente mais próximo do vetor da sua consulta (texto ou imagem).
-
-  * **Captura de Tela (Busca Visual)**:
-    ![Busca por Similaridade de Imagem em acervo local - Cabana](https://github.com/samuel-c-santos/ArchiSearch/blob/main/static/demo/img_cabana.png?raw=true)
-
------
-
-### [Sistema de Certificação do Cadastro Ambiental Rural (CAR)](https://github.com/samuel-c-santos/sistema-certificacao-car)
-- **Descrição**: Sistema desenvolvido para automatizar a emissão de certificados do Cadastro Ambiental Rural (CAR), garantindo eficiência e controle rigoroso das emissões realizadas. Implementado para a Secretaria de Estado de Meio Ambiente e Sustentabilidade (SEMAS/PA).
-- **Principais Funcionalidades**:
-  - Geração automatizada de certificados em PDF com números de série únicos.
-  - Armazenamento no banco de dados para auditorias detalhadas.
-  - Documentação completa de metadados de cada operação.
-  - Controle de acesso e registro de ações realizadas por usuários.
-- **Tecnologias**: Python, Flask, PostgreSQL, ReportLab
-- **Demonstrações**:
-  - [Tela Inicial e Login](https://player.vimeo.com/video/1035004919?h=805fa5024b)
-  - [Geração por CPF/CNPJ](https://player.vimeo.com/video/1035004850?h=86aba52290)
-  - [Geração por Lista](https://player.vimeo.com/video/1035004865?h=2d347da33e)
-
-- **Captura de Tela**:
-  ![Página Inicial](https://github.com/samuel-c-santos/sistema-certificacao-car/blob/main/demo/index.jpg?raw=true)
+[![Visualizador de Viveiros – Captura de Tela](https://github.com/samuel-c-santos/viveiros-ideflorbio/blob/main/demo/demo_geral.png?raw=true)](https://samuel-c-santos.github.io/viveiros-ideflorbio/)
 
 ---
 
-### [Painel de Incêndios Florestais na Austrália](https://github.com/samuel-c-santos/painel-incendios-australia)
-- **Descrição**: Um painel interativo que explora dados históricos de incêndios florestais na Austrália. Permite visualizar a área estimada de incêndios e frequência mensal de ocorrências vegetativas por região.
-- **Tecnologias**: Python, Dash, Plotly, Pandas
-- **Link para Visualização**: [Acesse o painel](https://painel-incendios-australia.onrender.com)
-- **Captura de Tela**:
-  ![Painel de Incêndios](https://github.com/samuel-c-santos/painel-incendios-australia/blob/main/painel.png?raw=true)
-
----
-
-### [Análise Geoestatística usando R](https://github.com/samuel-c-santos/krigarem_r)
-- **Descrição**: Um projeto de análise de dados espaciais utilizando R para interpolar os valores de pH da água presente no solo em uma área de estudo. O pHÁgua é um indicador crucial da qualidade química do solo, influenciando sua fertilidade e adequação para cultivos agrícolas. O trabalho envolveu remoção de outliers, ajuste de semivariogramas, interpolação por krigagem e classificação espacial dos valores interpolados em categorias de acidez. Os resultados incluem mapas temáticos e gráficos estatísticos que facilitam a interpretação espacial da variabilidade do pH no solo.
-- **Tecnologias**: R, sf, gstat, ggplot2, raster
-- **Imagem do Resultado**:
-
-<div align="center">
-  <img src="https://github.com/samuel-c-santos/krigarem_r/blob/main/saida/Krigagem%20do%20par%C3%A2metro%20phagua.png?raw=true" 
-       alt="Mapa de Fluxo" width="800"/>
-</div>
-
----
-
-### [Prioritask - Aplicativo de Gestão de Tarefas](https://github.com/samuel-c-santos/prioritask)
-- **Descrição**: Aplicativo mobile desenvolvido para auxiliar no gerenciamento de tarefas, com foco em simplicidade e produtividade. Permite a organização eficiente das atividades diárias por meio de filtros e categorias personalizadas.  
-- **Principais Funcionalidades**:
-  - Adição, edição e exclusão de tarefas.
-  - Filtros para organizar e priorizar tarefas.
-  - Configurações personalizáveis para a experiência do usuário.
-  - Interface intuitiva e responsiva.
-- **Tecnologias**: React Native, Expo, JavaScript
-- **Demonstração**:  
-  [🎥 Assista à demonstração completa no Vimeo](https://vimeo.com/1039919429)
-
-- **Captura de Tela**:  
-<div align="center">
-  <table>
-    <tr>
-      <td>
-        <img src="https://github.com/samuel-c-santos/prioritask/blob/main/Screenshot_20241217_041628_Prioritask.jpg?raw=true" 
-             alt="Tela Principal" width="300"/>
-      </td>
-      <td>
-        <img src="https://github.com/samuel-c-santos/prioritask/blob/main/Screenshot_20241217_044751_Prioritask.jpg?raw=true" 
-             alt="Segunda Tela" width="300"/>
-      </td>
-    </tr>
-  </table>
-</div>
-
-- **Download do APK para Testes**:  
-  [📥 Prioritask APK](https://drive.google.com/file/d/14dIKvjnv3AZPvIWdcUqe8dFGKYF9b8qD/view?usp=sharing)
-
----
 ### DASHBOARD NO POWER BI [CLIQUE AQUI](https://github.com/samuel-c-santos/relatorios_bi) PARA CONFERIR O REPOSITÓRIO COMPLETO.
 
 ---
@@ -274,91 +202,106 @@ Sou um profissional dedicado à análise de dados e desenvolvimento de soluçõe
 
 ---
 
-### [Cenário Automatizado no QGIS para Análises Geoespaciais](https://github.com/nidgeo-digeo-semas/cenario_automatizado_qgis)
+### [ArchiSearch: Semantic Search for Architectural References](https://github.com/samuel-c-santos/ArchiSearch)
+
+  * **Descrição**: Ferramenta local (*on-premise*) que resolve o problema de **acessibilidade de grandes bibliotecas visuais** para arquitetos e designers. Utiliza Inteligência Artificial (CLIP) e busca vetorial (FAISS) para localizar referências visuais no disco rígido através de contexto semântico e similaridade visual, eliminando a dependência de nomes de arquivos ou tags manuais.
+
+  * **Motivação Principal**: A dificuldade em encontrar imagens específicas dentro de acervos locais devido à rigidez da organização em pastas, onde uma única imagem pode pertencer a múltiplas categorias (ex: colonial, madeira, jardim vertical).
+
+  * **Tecnologias Core**:
+
+      * **IA/ML**: OpenAI **CLIP** (Contrastive Language-Image Pre-training)
+      * **Indexação Vetorial**: **FAISS** (Facebook AI Similarity Search)
+      * **Linguagem/Framework**: Python (PyTorch, Transformers), Flask, TailwindCSS.
+
+  * **Principais Funcionalidades**:
+
+      * **Busca por Linguagem Natural**: Encontra imagens através de descrições contextuais (ex: "interiores com iluminação natural").
+      * **Reverse Image Search (Busca Visual)**: Localiza arquivos visualmente similares no acervo local a partir do *upload* de uma imagem de referência.
+      * **Deep Link com o SO**: Abre o arquivo encontrado diretamente na sua pasta do sistema operacional.
+      * **Privacidade**: Todo o processamento e indexação são realizados localmente.
+
+  * **Como a IA Funciona**: O modelo CLIP converte tanto a imagem quanto o texto em **vetores matemáticos (embeddings)**. Esses vetores são armazenados e rapidamente consultados pelo FAISS. A busca retorna a imagem cujo vetor está matematicamente mais próximo do vetor da sua consulta (texto ou imagem).
+
+  * **Captura de Tela (Busca Visual)**:
+    ![Busca por Similaridade de Imagem em acervo local - Cabana](https://github.com/samuel-c-santos/ArchiSearch/blob/main/static/demo/img_cabana.png?raw=true)
+
+-----
+
+### [Prioritask - Aplicativo de Gestão de Tarefas](https://github.com/samuel-c-santos/prioritask)
+- **Descrição**: Aplicativo mobile desenvolvido para auxiliar no gerenciamento de tarefas, com foco em simplicidade e produtividade. Permite a organização eficiente das atividades diárias por meio de filtros e categorias personalizadas.  
+- **Principais Funcionalidades**:
+  - Adição, edição e exclusão de tarefas.
+  - Filtros para organizar e priorizar tarefas.
+  - Configurações personalizáveis para a experiência do usuário.
+  - Interface intuitiva e responsiva.
+- **Tecnologias**: React Native, Expo, JavaScript
+- **Demonstração**:  
+  [🎥 Assista à demonstração completa no Vimeo](https://vimeo.com/1039919429)
+
+- **Captura de Tela**:  
+<div align="center">
+  <table>
+    <tr>
+      <td>
+        <img src="https://github.com/samuel-c-santos/prioritask/blob/main/Screenshot_20241217_041628_Prioritask.jpg?raw=true" 
+             alt="Tela Principal" width="300"/>
+      </td>
+      <td>
+        <img src="https://github.com/samuel-c-santos/prioritask/blob/main/Screenshot_20241217_044751_Prioritask.jpg?raw=true" 
+             alt="Segunda Tela" width="300"/>
+      </td>
+    </tr>
+  </table>
+</div>
+
+- **Download do APK para Testes**:  
+  [📥 Prioritask APK](https://drive.google.com/file/d/14dIKvjnv3AZPvIWdcUqe8dFGKYF9b8qD/view?usp=sharing)
+
+---
+
+### [Análise de Manguezais (PA-458) com Séries Temporais (NDVI & BFAST)](https://github.com/samuel-c-santos/manguezais-pa458-monitoramento)
+- **Descrição**: Trabalho de Conclusão de Curso (Especialização/UFRA) que avalia a dinâmica temporal de manguezais na rodovia PA-458 (Bragança-PA). O estudo combina séries temporais de NDVI (Sentinel-2) com o modelo BFAST para identificar e quantificar rupturas estruturais na vegetação entre 2019 e 2024.
+- **Destaques da Análise**:
+  - Detecção da principal ruptura estrutural (queda abrupta de NDVI) em **Janeiro de 2022** para ambos os lados da rodovia.
+  - O lado Leste, embora historicamente mais vigoroso, apresentou **menor resiliência**, com uma queda de magnitude maior (Magnitude: -0.244) e estabilizando em um patamar inferior.
+  - O lado Oeste manteve NDVI consistentemente inferior, refletindo o impacto histórico do bloqueio hidrológico causado pela estrada.
+- **Tecnologias**: R (BFAST, forecast), Python (Google Earth Engine, PyQGIS), QGIS
+- **Imagem da Análise**:
+<div align="center">
+  <img src="https://github.com/samuel-c-santos/manguezais-pa458-monitoramento/blob/main/bfastmonitor_Oeste.png?raw=true"
+       alt="Análise BFAST Monitor - Lado Oeste" width="800"/>
+</div>
+
+-----
+
+### [Iriri Land Cover – Visualizador de Mudanças de Uso e Cobertura do Solo (2006–2023)](https://github.com/samuel-c-santos/iriri-landcover-2006-2023)
 
 ### Resumo do Projeto
-Este projeto automatiza a geração de cenários geoespaciais no QGIS, facilitando o trabalho da **Gerência de Tratamento Digital de Imagens e Suporte ao Monitoramento Espacial Ambiental (GTDI)**, da **Diretoria de Geotecnologias (DIGEO)**. Tradicionalmente, a GTDI monta cenários importando bases vetoriais extensas e organizando-as em grupos e subgrupos antes de realizar recortes com buffer de 15 km para análises detalhadas. 
 
-Com este sistema, grande parte dessas etapas são automatizadas, permitindo que a equipe concentre esforços em tarefas analíticas e tomadas de decisão.
+O **Iriri Land Cover** é uma aplicação web interativa desenvolvida com **HTML, JavaScript, Leaflet.js e TailwindCSS**, projetada para visualizar e analisar as **mudanças na cobertura do solo** na **Floresta Estadual do Iriri (PA)** entre os anos de **2006 e 2023**. Utilizando dados da **Coleção 6 do MapBiomas**, processados no **Google Earth Engine** e refinados no **QGIS**, o app oferece uma ferramenta simples e intuitiva de interpretação espacial.
+
+Hospedado via **GitHub Pages**, o projeto permite comparar diferentes anos e identificar tipos de transições como remanescentes naturais, conversões antrópicas, regeneração e uso consolidado.
 
 ### Funcionalidades Principais
-- **Cenário Automático de Vetores:** Importa, organiza e estrutura camadas geoespaciais em grupos e subgrupos no QGIS.
-- **Clip Automático Base Local:** Filtra um imóvel específico, gera buffers de 15 km e recorta todas as camadas do projeto dentro desse limite.
-- **Exportação e Organização Automatizada:** Camadas recortadas são exportadas e organizadas em uma estrutura clara e eficiente.
+
+* **Visualização de Séries Temporais:** Permite alternar entre os mapas de cobertura do solo de 2006, 2023 e a transição entre eles.
+* **Classificação de Transição:** Detecta e categoriza as mudanças como:
+
+  * Remanescente de vegetação nativa
+  * Antropismo
+  * Antropismo consolidado
+  * Regeneração
+* **Legendas Dinâmicas:** Estilizadas conforme a paleta oficial do MapBiomas.
+* **Camadas Base Diversificadas:** Inclui Google Satélite, OpenStreetMap, Bing Maps, CartoDB Voyager e Sentinel-2.
+* **Popups Interativos:** Exibe os atributos completos de cada feição ao clicar no mapa.
+* **Interface Responsiva:** Compatível com dispositivos móveis e desktops.
 
 ### Captura de Tela
-![Clip Automático Base Local](https://github.com/nidgeo-digeo-semas/cenario_automatizado_qgis/blob/main/clip_automatico_base_local.png?raw=true)
 
----
+[![Iriri Land Cover – Captura de Tela](https://github.com/samuel-c-santos/iriri-landcover-2006-2023/blob/main/demo.png?raw=true)](https://samuel-c-santos.github.io/iriri-landcover-2006-2023/)
 
-### [Super-Resolução de Imagens Sentinel-2 com S2DR3](https://github.com/samuel-c-santos/s2dr3_inferencia_automatizada_sentinel2)
-
-### Resumo do Projeto  
-Este projeto demonstra a aplicação do modelo **S2DR3** para realizar **super-resolução de imagens Sentinel‑2**, ampliando a resolução espacial de cenas originais de 10m e 20m para **1 metro por pixel**, com alta qualidade e preservação espectral.
-
-A solução foi adaptada para buscar automaticamente a **melhor imagem disponível** utilizando o **Google Earth Engine**, priorizando cenas com **baixa cobertura de nuvens**, e em seguida processá-las com o modelo **S2DR3** no **Google Colab**.
-
-O projeto é ideal para quem deseja obter imagens Sentinel-2 com detalhes finos, sem necessidade de infraestrutura local avançada.
-
-### Funcionalidades Principais  
-- **Seleção automática da melhor imagem Sentinel-2** com baixa cobertura de nuvens.  
-- **Aplicação do modelo S2DR3** para super-resolução a 1m/px.  
-- **Geração de produtos multiespectrais georreferenciados** em formato GeoTIFF.  
-- **Execução completa no ambiente de nuvem** via Google Colab.  
-- **Download facilitado dos arquivos gerados**.
-
-### 📷 Exemplo  
-
-![demonstracao](https://github.com/samuel-c-santos/s2dr3_inferencia_automatizada_sentinel2/blob/main/demonstracao.png?raw=true)
-
----
-
-### [Download de Imagens Landsat e Sentinel-2 com Google Earth Engine e Google Colab](https://github.com/samuel-c-santos/download_landsat_sentinel)
-
-### Resumo do Projeto
-Este projeto oferece um fluxo prático para baixar imagens de satélite Landsat e Sentinel-2 com base em áreas vetoriais (shapefile), utilizando o poder do **Google Earth Engine** aliado à interface acessível do **Google Colab**.  
-O usuário pode fazer upload de sua área de interesse, selecionar o ano e o período desejado e gerar um link direto para download da imagem com até 10% de cobertura de nuvens.
-
-É uma solução ideal para análises multitemporais em imóveis rurais, estudos ambientais e apoio à regularização ambiental (ex.: CAR).
-
-### Funcionalidades Principais
-- **Upload de shapefile (.zip)** com área de interesse.
-- **Seleção de ano e semestre (Landsat)** ou **intervalo de meses (Sentinel-2)**.
-- **Processamento na nuvem** com o Earth Engine.
-- **Link direto para download** em formato GeoTIFF com resolução de até 10 metros.
-
-### Capturas de Tela
-
-#### Landsat  
-![Demonstração Landsat](https://github.com/samuel-c-santos/download_landsat_sentinel/blob/main/demonstracao_landsat.png?raw=true)
-
-#### Sentinel-2  
-![Demonstração Sentinel-2](https://github.com/samuel-c-santos/download_landsat_sentinel/blob/main/demonstracao_sentinel.png?raw=true)
-
----
-
-### [Sentinel Time Viewer – Comparação Temporal com Swipe no Google Earth Engine](https://github.com/samuel-c-santos/Sentinel-Time-Viewer)
-
-### Resumo do Projeto  
-Este projeto implementa uma ferramenta interativa para **visualização temporal de imagens Sentinel‑2**, utilizando o **Google Earth Engine** em conjunto com o **Google Colab** e a biblioteca `geemap`.
-
-Com foco na comparação ano a ano, o usuário pode fazer **upload de um shapefile** e visualizar as imagens correspondentes com **controle deslizante (swipe)**, permitindo identificar mudanças visuais com clareza.  
-O polígono vetorial da área de interesse é automaticamente estilizado e sobreposto em todas as imagens, mesmo com a alternância entre camadas.
-
-A solução é ideal para análise de cobertura do solo, detecção de mudanças e estudos ambientais de forma acessível e sem a necessidade de ferramentas locais.
-
-### Funcionalidades Principais  
-- **Upload de shapefile (.zip)** com a área de interesse.  
-- **Carregamento automático de imagens Sentinel-2** com menos de 10% de nuvens.  
-- **Comparação visual ano a ano com controle deslizante** interativo.  
-- **Sobreposição vetorial automática**, garantindo destaque da área em todas as camadas.  
-- **Execução 100% no navegador** via Google Colab.
-
-### 📷 Exemplo  
-
-![exemplo_swipe](https://github.com/samuel-c-santos/Sentinel-Time-Viewer/blob/main/exemplo_swipe.gif?raw=true)
-
----
+-----
 
 ### [GeoVisor Belém — Visualizador Interativo com Leaflet](https://samuel-c-santos.github.io/geovisor-belem/)
 
@@ -407,72 +350,109 @@ A ferramenta foi criada para oferecer uma solução acessível e eficiente para 
 
 -----
 
-### [Iriri Land Cover – Visualizador de Mudanças de Uso e Cobertura do Solo (2006–2023)](https://github.com/samuel-c-santos/iriri-landcover-2006-2023)
+### [Sistema de Certificação do Cadastro Ambiental Rural (CAR)](https://github.com/samuel-c-santos/sistema-certificacao-car)
+- **Descrição**: Sistema desenvolvido para automatizar a emissão de certificados do Cadastro Ambiental Rural (CAR), garantindo eficiência e controle rigoroso das emissões realizadas. Implementado para a Secretaria de Estado de Meio Ambiente e Sustentabilidade (SEMAS/PA).
+- **Principais Funcionalidades**:
+  - Geração automatizada de certificados em PDF com números de série únicos.
+  - Armazenamento no banco de dados para auditorias detalhadas.
+  - Documentação completa de metadados de cada operação.
+  - Controle de acesso e registro de ações realizadas por usuários.
+- **Tecnologias**: Python, Flask, PostgreSQL, ReportLab
+- **Demonstrações**:
+  - [Tela Inicial e Login](https://player.vimeo.com/video/1035004919?h=805fa5024b)
+  - [Geração por CPF/CNPJ](https://player.vimeo.com/video/1035004850?h=86aba52290)
+  - [Geração por Lista](https://player.vimeo.com/video/1035004865?h=2d347da33e)
 
-### Resumo do Projeto
-
-O **Iriri Land Cover** é uma aplicação web interativa desenvolvida com **HTML, JavaScript, Leaflet.js e TailwindCSS**, projetada para visualizar e analisar as **mudanças na cobertura do solo** na **Floresta Estadual do Iriri (PA)** entre os anos de **2006 e 2023**. Utilizando dados da **Coleção 6 do MapBiomas**, processados no **Google Earth Engine** e refinados no **QGIS**, o app oferece uma ferramenta simples e intuitiva de interpretação espacial.
-
-Hospedado via **GitHub Pages**, o projeto permite comparar diferentes anos e identificar tipos de transições como remanescentes naturais, conversões antrópicas, regeneração e uso consolidado.
-
-### Funcionalidades Principais
-
-* **Visualização de Séries Temporais:** Permite alternar entre os mapas de cobertura do solo de 2006, 2023 e a transição entre eles.
-* **Classificação de Transição:** Detecta e categoriza as mudanças como:
-
-  * Remanescente de vegetação nativa
-  * Antropismo
-  * Antropismo consolidado
-  * Regeneração
-* **Legendas Dinâmicas:** Estilizadas conforme a paleta oficial do MapBiomas.
-* **Camadas Base Diversificadas:** Inclui Google Satélite, OpenStreetMap, Bing Maps, CartoDB Voyager e Sentinel-2.
-* **Popups Interativos:** Exibe os atributos completos de cada feição ao clicar no mapa.
-* **Interface Responsiva:** Compatível com dispositivos móveis e desktops.
-
-### Captura de Tela
-
-[![Iriri Land Cover – Captura de Tela](https://github.com/samuel-c-santos/iriri-landcover-2006-2023/blob/main/demo.png?raw=true)](https://samuel-c-santos.github.io/iriri-landcover-2006-2023/)
-
------
-
-### [Visualizador de Viveiros - IDEFLOR-Bio](https://github.com/samuel-c-santos/viveiros-ideflorbio)
-
-### Resumo do Projeto
-
-O **Visualizador de Viveiros** é um aplicativo web interativo desenvolvido para o **IDEFLOR-Bio**, com o objetivo de visualizar e pesquisar informações geoespaciais sobre viveiros de mudas no Pará. A aplicação foi construída com **HTML, JavaScript, Leaflet.js e TailwindCSS**, e atende à demanda do processo **2025/2460154**. Ele oferece uma plataforma intuitiva para explorar dados de viveiros, municípios, Unidades de Conservação e regiões de integração.
-
-Hospedado via **GitHub Pages**, o projeto permite a análise de dados espaciais de forma rápida e eficiente.
-
-### Funcionalidades Principais
-
-  * **Filtro por Atributos:** Filtra os viveiros com base em colunas e valores específicos, como "Município", "Categoria de viveiro" e outros.
-  * **Controle de Camadas:** Permite ligar e desligar as camadas de viveiros, Unidades de Conservação, municípios e regiões de integração.
-  * **Legenda Dinâmica:** A legenda se atualiza automaticamente para refletir apenas as camadas ativas no mapa.
-  * **Download de Dados:** Possibilita baixar o conjunto de dados filtrado em formato GeoJSON.
-  * **Múltiplos Mapas Base:** Oferece diversas opções de fundo de mapa, incluindo Google Satellite, OpenStreetMap e Sentinel-2, para melhor contextualização.
-  * **Popups Interativos:** Exibe informações detalhadas de cada viveiro e camada ao clicar no mapa.
-  * **Interface Responsiva:** O layout se adapta para uma boa visualização em dispositivos móveis e desktops.
-
-### Captura de Tela
-
-[![Visualizador de Viveiros – Captura de Tela](https://github.com/samuel-c-santos/viveiros-ideflorbio/blob/main/demo/demo_geral.png?raw=true)](https://samuel-c-santos.github.io/viveiros-ideflorbio/)
+- **Captura de Tela**:
+  ![Página Inicial](https://github.com/samuel-c-santos/sistema-certificacao-car/blob/main/demo/index.jpg?raw=true)
 
 ---
 
-### [Análise de Manguezais (PA-458) com Séries Temporais (NDVI & BFAST)](https://github.com/samuel-c-santos/manguezais-pa458-monitoramento)
-- **Descrição**: Trabalho de Conclusão de Curso (Especialização/UFRA) que avalia a dinâmica temporal de manguezais na rodovia PA-458 (Bragança-PA). O estudo combina séries temporais de NDVI (Sentinel-2) com o modelo BFAST para identificar e quantificar rupturas estruturais na vegetação entre 2019 e 2024.
-- **Destaques da Análise**:
-  - Detecção da principal ruptura estrutural (queda abrupta de NDVI) em **Janeiro de 2022** para ambos os lados da rodovia.
-  - O lado Leste, embora historicamente mais vigoroso, apresentou **menor resiliência**, com uma queda de magnitude maior (Magnitude: -0.244) e estabilizando em um patamar inferior.
-  - O lado Oeste manteve NDVI consistentemente inferior, refletindo o impacto histórico do bloqueio hidrológico causado pela estrada.
-- **Tecnologias**: R (BFAST, forecast), Python (Google Earth Engine, PyQGIS), QGIS
-- **Imagem da Análise**:
-<div align="center">
-  <img src="https://github.com/samuel-c-santos/manguezais-pa458-monitoramento/blob/main/bfastmonitor_Oeste.png?raw=true"
-       alt="Análise BFAST Monitor - Lado Oeste" width="800"/>
-</div>
+### [Cenário Automatizado no QGIS para Análises Geoespaciais](https://github.com/nidgeo-digeo-semas/cenario_automatizado_qgis)
 
------
+### Resumo do Projeto
+Este projeto automatiza a geração de cenários geoespaciais no QGIS, facilitando o trabalho da **Gerência de Tratamento Digital de Imagens e Suporte ao Monitoramento Espacial Ambiental (GTDI)**, da **Diretoria de Geotecnologias (DIGEO)**. Tradicionalmente, a GTDI monta cenários importando bases vetoriais extensas e organizando-as em grupos e subgrupos antes de realizar recortes com buffer de 15 km para análises detalhadas. 
+
+Com este sistema, grande parte dessas etapas são automatizadas, permitindo que a equipe concentre esforços em tarefas analíticas e tomadas de decisão.
+
+### Funcionalidades Principais
+- **Cenário Automático de Vetores:** Importa, organiza e estrutura camadas geoespaciais em grupos e subgrupos no QGIS.
+- **Clip Automático Base Local:** Filtra um imóvel específico, gera buffers de 15 km e recorta todas as camadas do projeto dentro desse limite.
+- **Exportação e Organização Automatizada:** Camadas recortadas são exportadas e organizadas em uma estrutura clara e eficiente.
+
+### Captura de Tela
+![Clip Automático Base Local](https://github.com/nidgeo-digeo-semas/cenario_automatizado_qgis/blob/main/clip_automatico_base_local.png?raw=true)
+
+---
+
+### [Super-Resolução de Imagens Sentinel-2 com S2DR3](https://github.com/samuel-c-santos/s2dr3_inferencia_automatizada_sentinel2)
+
+### Resumo do Projeto  
+Este projeto demonstra a aplicação do modelo **S2DR3** para realizar **super-resolução de imagens Sentinel‑2**, ampliando a resolução espacial de cenas originais de 10m e 20m para **1 metro por pixel**, com alta qualidade e preservação espectral.
+
+A solução foi adaptada para buscar automaticamente a **melhor imagem disponível** utilizando o **Google Earth Engine**, priorizando cenas com **baixa cobertura de nuvens**, e em seguida processá-las com o modelo **S2DR3** no **Google Colab**.
+
+O projeto é ideal para quem deseja obter imagens Sentinel-2 com detalhes finos, sem necessidade de infraestrutura local avançada.
+
+### Funcionalidades Principais  
+- **Seleção automática da melhor imagem Sentinel-2** com baixa cobertura de nuvens.  
+- **Aplicação do modelo S2DR3** para super-resolução a 1m/px.  
+- **Geração de produtos multiespectrais georreferenciados** em formato GeoTIFF.  
+- **Execução completa no ambiente de nuvem** via Google Colab.  
+- **Download facilitado dos arquivos gerados**.
+
+### 📷 Exemplo  
+
+![demonstracao](https://github.com/samuel-c-santos/s2dr3_inferencia_automatizada_sentinel2/blob/main/demonstracao.png?raw=true)
+
+---
+
+### [Sentinel Time Viewer – Comparação Temporal com Swipe no Google Earth Engine](https://github.com/samuel-c-santos/Sentinel-Time-Viewer)
+
+### Resumo do Projeto  
+Este projeto implementa uma ferramenta interativa para **visualização temporal de imagens Sentinel‑2**, utilizando o **Google Earth Engine** em conjunto com o **Google Colab** e a biblioteca `geemap`.
+
+Com foco na comparação ano a ano, o usuário pode fazer **upload de um shapefile** e visualizar as imagens correspondentes com **controle deslizante (swipe)**, permitindo identificar mudanças visuais com clareza.  
+O polígono vetorial da área de interesse é automaticamente estilizado e sobreposto em todas as imagens, mesmo com a alternância entre camadas.
+
+A solução é ideal para análise de cobertura do solo, detecção de mudanças e estudos ambientais de forma acessível e sem a necessidade de ferramentas locais.
+
+### Funcionalidades Principais  
+- **Upload de shapefile (.zip)** com a área de interesse.  
+- **Carregamento automático de imagens Sentinel-2** com menos de 10% de nuvens.  
+- **Comparação visual ano a ano com controle deslizante** interativo.  
+- **Sobreposição vetorial automática**, garantindo destaque da área em todas as camadas.  
+- **Execução 100% no navegador** via Google Colab.
+
+### 📷 Exemplo  
+
+![exemplo_swipe](https://github.com/samuel-c-santos/Sentinel-Time-Viewer/blob/main/exemplo_swipe.gif?raw=true)
+
+---
+
+### [Download de Imagens Landsat e Sentinel-2 com Google Earth Engine e Google Colab](https://github.com/samuel-c-santos/download_landsat_sentinel)
+
+### Resumo do Projeto
+Este projeto oferece um fluxo prático para baixar imagens de satélite Landsat e Sentinel-2 com base em áreas vetoriais (shapefile), utilizando o poder do **Google Earth Engine** aliado à interface acessível do **Google Colab**.  
+O usuário pode fazer upload de sua área de interesse, selecionar o ano e o período desejado e gerar um link direto para download da imagem com até 10% de cobertura de nuvens.
+
+É uma solução ideal para análises multitemporais em imóveis rurais, estudos ambientais e apoio à regularização ambiental (ex.: CAR).
+
+### Funcionalidades Principais
+- **Upload de shapefile (.zip)** com área de interesse.
+- **Seleção de ano e semestre (Landsat)** ou **intervalo de meses (Sentinel-2)**.
+- **Processamento na nuvem** com o Earth Engine.
+- **Link direto para download** em formato GeoTIFF com resolução de até 10 metros.
+
+### Capturas de Tela
+
+#### Landsat  
+![Demonstração Landsat](https://github.com/samuel-c-santos/download_landsat_sentinel/blob/main/demonstracao_landsat.png?raw=true)
+
+#### Sentinel-2  
+![Demonstração Sentinel-2](https://github.com/samuel-c-santos/download_landsat_sentinel/blob/main/demonstracao_sentinel.png?raw=true)
+
+---
 
 ### [Análise de Dados de Malária](https://github.com/samuel-c-santos/malaria-data-analysis)
 
@@ -488,6 +468,27 @@ Hospedado via **GitHub Pages**, o projeto permite a análise de dados espaciais 
   <img src="https://raw.githubusercontent.com/samuel-c-santos/malaria-data-analysis/main/maps/map_outputs/mapa_fluxo_casos_importados_2022.png" 
        alt="Mapa de Fluxo" width="500"/>
 </div>
+
+---
+
+### [Análise Geoestatística usando R](https://github.com/samuel-c-santos/krigarem_r)
+- **Descrição**: Um projeto de análise de dados espaciais utilizando R para interpolar os valores de pH da água presente no solo em uma área de estudo. O pHÁgua é um indicador crucial da qualidade química do solo, influenciando sua fertilidade e adequação para cultivos agrícolas. O trabalho envolveu remoção de outliers, ajuste de semivariogramas, interpolação por krigagem e classificação espacial dos valores interpolados em categorias de acidez. Os resultados incluem mapas temáticos e gráficos estatísticos que facilitam a interpretação espacial da variabilidade do pH no solo.
+- **Tecnologias**: R, sf, gstat, ggplot2, raster
+- **Imagem do Resultado**:
+
+<div align="center">
+  <img src="https://github.com/samuel-c-santos/krigarem_r/blob/main/saida/Krigagem%20do%20par%C3%A2metro%20phagua.png?raw=true" 
+       alt="Mapa de Fluxo" width="800"/>
+</div>
+
+---
+
+### [Painel de Incêndios Florestais na Austrália](https://github.com/samuel-c-santos/painel-incendios-australia)
+- **Descrição**: Um painel interativo que explora dados históricos de incêndios florestais na Austrália. Permite visualizar a área estimada de incêndios e frequência mensal de ocorrências vegetativas por região.
+- **Tecnologias**: Python, Dash, Plotly, Pandas
+- **Link para Visualização**: [Acesse o painel](https://painel-incendios-australia.onrender.com)
+- **Captura de Tela**:
+  ![Painel de Incêndios](https://github.com/samuel-c-santos/painel-incendios-australia/blob/main/painel.png?raw=true)
 
 ---
 
