@@ -124,6 +124,41 @@ Sou um profissional dedicado à análise de dados e desenvolvimento de soluçõe
 
 ## &nbsp;Projetos
 
+### [Sprint Kanban Template - Sistema de Gestão Ágil com Auto-Save](https://github.com/samuel-c-santos/sprint-kanban-template)
+
+**Descrição**: Template completo de Kanban interativo com salvamento automático via GitHub API. Sistema para gestão de sprints com interface drag-and-drop, visualização Gantt e persistência real através de commits automáticos no repositório.
+
+**Principais Funcionalidades**:
+- Kanban interativo com drag-and-drop entre colunas
+- Criação e edição de cards com modal completo
+- Salvamento automático com commits diretos no GitHub
+- Deploy automático via Vercel a cada push
+- Visualização timeline em Gantt Chart
+- Tema dark premium com design moderno
+- Zero dependências - HTML/CSS/JS puro
+
+**Tecnologias**: HTML, CSS, JavaScript, Vercel (Serverless Functions), GitHub API, Leaflet Icons
+
+**Demo ao Vivo**: [Ver Aplicação](https://sprint-kanban-template.vercel.app/kanban.html)
+
+**Capturas de Tela**:
+<div align="center">
+  <table>
+    <tr>
+      <td>
+        <img src="https://github.com/samuel-c-santos/sprint-kanban-template/blob/main/demo/1-inicial.png?raw=true" 
+             alt="Interface Principal" width="400"/>
+      </td>
+      <td>
+        <img src="https://github.com/samuel-c-santos/sprint-kanban-template/blob/main/demo/3-editar-card.png?raw=true" 
+             alt="Modal de Edição" width="400"/>
+      </td>
+    </tr>
+  </table>
+</div>
+
+---
+
 ### [Visualizador de Viveiros - IDEFLOR-Bio](https://github.com/samuel-c-santos/viveiros-ideflorbio)
 
 ### Resumo do Projeto
