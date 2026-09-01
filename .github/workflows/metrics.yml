@@ -1,0 +1,34 @@
+name: Metrics
+on:
+  # Atualiza automaticamente todos os dias à meia-noite
+  schedule: [{cron: "0 0 * * *"}]
+  # Permite que você rode a action manualmente clicando em um botão
+  workflow_dispatch:
+  # Atualiza sempre que você fizer um push no README
+  push: {branches: ["master", "main"]}
+
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          # O token padrão do GitHub já é suficiente para essas métricas
+          token: ${{ secrets.GITHUB_TOKEN }}
+          
+          # Configurações gerais
+          user: samuel-c-santos
+          template: classic
+          base: header, activity, community, repositories, metadata
+          config_timezone: America/Belem
+          
+          # Plugin Isocalendar (Substituto visual para o seu antigo gráfico de atividades)
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: half-year
+          
+          # Plugin de Linguagens (Excelente para mostrar seu foco em Python, etc.)
+          plugin_languages: yes
+          plugin_languages_ignored: html, css
+          plugin_languages_details: percentage
