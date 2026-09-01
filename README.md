@@ -94,12 +94,11 @@ Sou um profissional dedicado à análise de dados e desenvolvimento de soluçõe
 
 ---
 
-## &nbsp;Gráfico de Atividades
+## &nbsp;Métricas e Atividades
 
-<a href="https://github.com/samuel-c-santos">
-  <img alt="Samuel's Activity Graph" src="https://github-readme-activity-graph.vercel.app/graph?username=samuel-c-santos&bg_color=ffffff&color=74c67a&line=74c67a&point=74c67a&area=true&hide_border=true" />
-</a>
-
+<div align="center">
+  <img src="github-metrics.svg" alt="Métricas do GitHub de Samuel Santos" width="100%" />
+</div>
 
 ---
 
