@@ -55,6 +55,10 @@ Sou um profissional dedicado à análise de dados e desenvolvimento de soluçõe
     <img src="https://images.credly.com/size/680x680/images/9267a387-1a51-4ebe-8c05-976a5ec4c3d0/image.png" 
          alt="Google Advanced Data Analytics" width="130" height="130">
   </a>
+  <a href="https://www.coursera.org/account/accomplishments/specialization/TMPQCW1K8GJU" target="_blank">
+    <img src="https://images.credly.com/size/680x680/images/1a546b64-d2d1-480a-9144-410112eb8fa0/blob" 
+         alt="Google IT Automation with Python" width="130" height="130">
+  </a>
 </div>
 
 ---
