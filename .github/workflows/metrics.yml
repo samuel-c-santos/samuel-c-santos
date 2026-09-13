@@ -27,3 +27,9 @@ jobs:
           plugin_languages: yes
           plugin_languages_ignored: html, css
           plugin_languages_details: percentage
+
+          # Plugin Skyline (Gráfico 3D de contribuições)
+          plugin_skyline: yes
+          plugin_skyline_frames: 60
+          plugin_skyline_quality: 0.5
+          plugin_skyline_compatibility: yes
