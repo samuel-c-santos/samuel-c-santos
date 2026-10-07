@@ -41,23 +41,23 @@ Sou um profissional dedicado à análise de dados e desenvolvimento de soluçõe
 
 <div align="left">
   <a href="https://www.coursera.org/account/accomplishments/professional-cert/S77137BIW3BB" target="_blank">
-    <img src="https://images.credly.com/size/680x680/images/42ce4209-8839-431a-9046-f2ce2e72e04b/Coursera_20Data_20Science_20Professional_20Certificate.png" 
+    <img src="files/ibm_data_science.png" 
          alt="IBM Data Science" width="130" height="130">
   </a>
   <a href="https://www.coursera.org/account/accomplishments/professional-cert/6O9UOEAOR8SC" target="_blank">
-    <img src="https://images.credly.com/size/680x680/images/cbe961ef-3536-47a1-be43-14c461a3216e/image.png" 
+    <img src="files/google_business_intelligence.png" 
          alt="Google Business Intelligence" width="130" height="130">
   </a>
   <a href="https://www.coursera.org/account/accomplishments/professional-cert/UCL8PA52WE22" target="_blank">
-    <img src="https://images.credly.com/size/680x680/images/d41de2b7-cbc2-47ec-bcf1-ebecbe83872f/GCC_badge_DA_1000x1000.png" 
+    <img src="files/google_data_analytics.png" 
          alt="Google Data Analytics" width="130" height="130">
   </a>
   <a href="https://www.coursera.org/account/accomplishments/professional-cert/FERD3VNVCZUX" target="_blank">
-    <img src="https://images.credly.com/size/680x680/images/e2e7a640-97e5-4bfa-86d6-616b50ac72af/blob" 
+    <img src="files/google_advanced_data_analytics.png" 
          alt="Google Advanced Data Analytics" width="130" height="130">
   </a>
   <a href="https://www.coursera.org/account/accomplishments/specialization/TMPQCW1K8GJU" target="_blank">
-    <img src="https://images.credly.com/size/680x680/images/a0d0b1f3-8d86-4341-a49d-201a322d633e/blob" 
+    <img src="files/google_it_automation_python.png" 
          alt="Google IT Automation with Python" width="130" height="130">
   </a>
 </div>
