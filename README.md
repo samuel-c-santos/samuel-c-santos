@@ -53,11 +53,11 @@ Sou um profissional dedicado à análise de dados e desenvolvimento de soluçõe
          alt="Google Data Analytics" width="130" height="130">
   </a>
   <a href="https://www.coursera.org/account/accomplishments/professional-cert/FERD3VNVCZUX" target="_blank">
-    <img src="https://images.credly.com/size/680x680/images/9267a387-1a51-4ebe-8c05-976a5ec4c3d0/image.png" 
+    <img src="https://images.credly.com/size/680x680/images/e2e7a640-97e5-4bfa-86d6-616b50ac72af/blob" 
          alt="Google Advanced Data Analytics" width="130" height="130">
   </a>
   <a href="https://www.coursera.org/account/accomplishments/specialization/TMPQCW1K8GJU" target="_blank">
-    <img src="https://images.credly.com/size/680x680/images/1a546b64-d2d1-480a-9144-410112eb8fa0/blob" 
+    <img src="https://images.credly.com/size/680x680/images/a0d0b1f3-8d86-4341-a49d-201a322d633e/blob" 
          alt="Google IT Automation with Python" width="130" height="130">
   </a>
 </div>
