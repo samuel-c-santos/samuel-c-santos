@@ -44,3 +44,8 @@ jobs:
               --color-calendar-graph-day-L3-bg: #FF9F1C;
               --color-calendar-graph-day-L4-bg: #FF4D4D;
             }
+            rect.day[fill="#9be9a8"] { fill: #FFE600; }
+            rect.day[fill="#40c463"] { fill: #FFC900; }
+            rect.day[fill="#30a14e"] { fill: #FF9F1C; }
+            rect.day[fill="#216e39"] { fill: #FF4D4D; }
+            rect.day[fill="#ebedf0"] { fill: #EFE8D6; }
