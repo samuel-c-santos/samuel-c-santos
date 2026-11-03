@@ -31,3 +31,16 @@ jobs:
           # Diminui um pouco a fonte
           extras_css: |
             svg { font-size: 12px; }
+            svg { background-color: #FDFAF3; color: #0A0A0A; }
+            text { fill: #0A0A0A; }
+            h1, h2, h3 { color: #0A0A0A !important; font-weight: 900; }
+            .field, footer { color: #0A0A0A; }
+            .field svg { fill: #0A0A0A; }
+            :root {
+              --color-calendar-graph-day-bg: #EFE8D6;
+              --color-calendar-graph-day-border: rgba(10, 10, 10, 0.18);
+              --color-calendar-graph-day-L1-bg: #FFE600;
+              --color-calendar-graph-day-L2-bg: #FFC900;
+              --color-calendar-graph-day-L3-bg: #FF9F1C;
+              --color-calendar-graph-day-L4-bg: #FF4D4D;
+            }

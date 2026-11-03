@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="570" viewBox="0 0 1120 570">
+  <defs>
+    <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse">
+      <path d="M 34 0 L 0 0 0 34" fill="none" stroke="#1F1F29" stroke-width="1.4"/>
+    </pattern>
+  </defs>
+  <rect width="1120" height="570" fill="#0D0D12"/>
+  <rect width="1120" height="570" fill="url(#grid)"/>
+<rect x="53" y="37" width="185" height="38" rx="0" fill="#000000"/><rect x="48" y="32" width="185" height="38" rx="0" fill="#FFE600" stroke="#F7F2E7" stroke-width="3.5"/><text x="140" y="57" font-family="'Arial Black','Arial Bold',Impact,Haettenschweiler,sans-serif" font-size="14" font-weight="900" fill="#F7F2E7" text-anchor="middle" letter-spacing="1.2" >STACK TÉCNICA</text>
+  <text x="1072" y="56" font-family="'Cascadia Mono','JetBrains Mono',Consolas,'Courier New',monospace" font-size="13" font-weight="700" fill="#B4AD9E" text-anchor="end" letter-spacing="0" >▲ o que eu abro todo dia</text>
+  <rect x="55" y="107" width="500" height="216" rx="4" fill="#000000"/><rect x="48" y="100" width="500" height="216" rx="4" fill="#16161E" stroke="#F7F2E7" stroke-width="4"/>
+  <rect x="66" y="116" width="116" height="30" rx="2" fill="#FFE600" stroke="#F7F2E7" stroke-width="3"/>
+  <text x="124" y="137" font-family="'Cascadia Mono','JetBrains Mono',Consolas,'Courier New',monospace" font-size="13" font-weight="700" fill="#0A0A0A" text-anchor="middle" letter-spacing="1.2" >DADOS &amp; BI</text>
+  <rect x="66" y="158" width="226" height="40" rx="2" fill="#FFE600" stroke="#F7F2E7" stroke-width="2.6"/>
+  <text x="179" y="183.76" font-family="'Cascadia Mono','JetBrains Mono',Consolas,'Courier New',monospace" font-size="16.0" font-weight="700" fill="#0A0A0A" text-anchor="middle" letter-spacing="0.4" >Python</text>
+  <rect x="304" y="158" width="226" height="40" rx="2" fill="#9FB6F5" stroke="#F7F2E7" stroke-width="2.6"/>
+  <text x="417" y="183.76" font-family="'Cascadia Mono','JetBrains Mono',Consolas,'Courier New',monospace" font-size="16.0" font-weight="700" fill="#0A0A0A" text-anchor="middle" letter-spacing="0.4" >R</text>
+  <rect x="66" y="208" width="226" height="40" rx="2" fill="#B49CFF" stroke="#F7F2E7" stroke-width="2.6"/>
+  <text x="179" y="233.76" font-family="'Cascadia Mono','JetBrains Mono',Consolas,'Courier New',monospace" font-size="16.0" font-weight="700" fill="#0A0A0A" text-anchor="middle" letter-spacing="0.4" >SQL</text>
+  <rect x="304" y="208" width="226" height="40" rx="2" fill="#FF8A52" stroke="#F7F2E7" stroke-width="2.6"/>
+  <text x="417" y="233.76" font-family="'Cascadia Mono','JetBrains Mono',Consolas,'Courier New',monospace" font-size="16.0" font-weight="700" fill="#0A0A0A" text-anchor="middle" letter-spacing="0.4" >Pandas</text>
+  <rect x="66" y="258" width="226" height="40" rx="2" fill="#FF9BEC" stroke="#F7F2E7" stroke-width="2.6"/>
+  <text x="179" y="283.76" font-family="'Cascadia Mono','JetBrains Mono',Consolas,'Courier New',monospace" font-size="16.0" font-weight="700" fill="#0A0A0A" text-anchor="middle" letter-spacing="0.4" >Power BI</text>
+  <rect x="304" y="258" width="226" height="40" rx="2" fill="#2CF08D" stroke="#F7F2E7" stroke-width="2.6"/>
+  <text x="417" y="283.76" font-family="'Cascadia Mono','JetBrains Mono',Consolas,'Courier New',monospace" font-size="16.0" font-weight="700" fill="#0A0A0A" text-anchor="middle" letter-spacing="0.4" >Streamlit</text>
+  <rect x="579" y="107" width="500" height="216" rx="4" fill="#000000"/><rect x="572" y="100" width="500" height="216" rx="4" fill="#16161E" stroke="#F7F2E7" stroke-width="4"/>
+  <rect x="590" y="116" width="57" height="30" rx="2" fill="#2CF08D" stroke="#F7F2E7" stroke-width="3"/>
+  <text x="618" y="137" font-family="'Cascadia Mono','JetBrains Mono',Consolas,'Courier New',monospace" font-size="13" font-weight="700" fill="#0A0A0A" text-anchor="middle" letter-spacing="1.2" >GEO</text>
+  <rect x="590" y="158" width="226" height="40" rx="2" fill="#9FB6F5" stroke="#F7F2E7" stroke-width="2.6"/>
+  <text x="703" y="183.76" font-family="'Cascadia Mono','JetBrains Mono',Consolas,'Courier New',monospace" font-size="16.0" font-weight="700" fill="#0A0A0A" text-anchor="middle" letter-spacing="0.4" >PostGIS</text>
+  <rect x="828" y="158" width="226" height="40" rx="2" fill="#FF9BEC" stroke="#F7F2E7" stroke-width="2.6"/>
+  <text x="941" y="183.76" font-family="'Cascadia Mono','JetBrains Mono',Consolas,'Courier New',monospace" font-size="16.0" font-weight="700" fill="#0A0A0A" text-anchor="middle" letter-spacing="0.4" >QGIS</text>
+  <rect x="590" y="208" width="226" height="40" rx="2" fill="#FF8A52" stroke="#F7F2E7" stroke-width="2.6"/>
+  <text x="703" y="233.76" font-family="'Cascadia Mono','JetBrains Mono',Consolas,'Courier New',monospace" font-size="16.0" font-weight="700" fill="#0A0A0A" text-anchor="middle" letter-spacing="0.4" >GDAL</text>
+  <rect x="828" y="208" width="226" height="40" rx="2" fill="#FFE600" stroke="#F7F2E7" stroke-width="2.6"/>
+  <text x="941" y="233.76" font-family="'Cascadia Mono','JetBrains Mono',Consolas,'Courier New',monospace" font-size="16.0" font-weight="700" fill="#0A0A0A" text-anchor="middle" letter-spacing="0.4" >GeoPandas</text>
+  <rect x="590" y="258" width="226" height="40" rx="2" fill="#2CF08D" stroke="#F7F2E7" stroke-width="2.6"/>
+  <text x="703" y="283.76" font-family="'Cascadia Mono','JetBrains Mono',Consolas,'Courier New',monospace" font-size="16.0" font-weight="700" fill="#0A0A0A" text-anchor="middle" letter-spacing="0.4" >Earth Engine</text>
+  <rect x="828" y="258" width="226" height="40" rx="2" fill="#B49CFF" stroke="#F7F2E7" stroke-width="2.6"/>
+  <text x="941" y="283.76" font-family="'Cascadia Mono','JetBrains Mono',Consolas,'Courier New',monospace" font-size="16.0" font-weight="700" fill="#0A0A0A" text-anchor="middle" letter-spacing="0.4" >Leaflet</text>
+  <rect x="55" y="339" width="500" height="216" rx="4" fill="#000000"/><rect x="48" y="332" width="500" height="216" rx="4" fill="#16161E" stroke="#F7F2E7" stroke-width="4"/>
+  <rect x="66" y="348" width="107" height="30" rx="2" fill="#9FB6F5" stroke="#F7F2E7" stroke-width="3"/>
+  <text x="119" y="369" font-family="'Cascadia Mono','JetBrains Mono',Consolas,'Courier New',monospace" font-size="13" font-weight="700" fill="#0A0A0A" text-anchor="middle" letter-spacing="1.2" >DEV &amp; WEB</text>
+  <rect x="66" y="390" width="226" height="40" rx="2" fill="#FF9BEC" stroke="#F7F2E7" stroke-width="2.6"/>
+  <text x="179" y="415.76" font-family="'Cascadia Mono','JetBrains Mono',Consolas,'Courier New',monospace" font-size="16.0" font-weight="700" fill="#0A0A0A" text-anchor="middle" letter-spacing="0.4" >Flask</text>
+  <rect x="304" y="390" width="226" height="40" rx="2" fill="#2CF08D" stroke="#F7F2E7" stroke-width="2.6"/>
+  <text x="417" y="415.76" font-family="'Cascadia Mono','JetBrains Mono',Consolas,'Courier New',monospace" font-size="16.0" font-weight="700" fill="#0A0A0A" text-anchor="middle" letter-spacing="0.4" >JavaScript</text>
+  <rect x="66" y="440" width="226" height="40" rx="2" fill="#FFE600" stroke="#F7F2E7" stroke-width="2.6"/>
+  <text x="179" y="465.76" font-family="'Cascadia Mono','JetBrains Mono',Consolas,'Courier New',monospace" font-size="16.0" font-weight="700" fill="#0A0A0A" text-anchor="middle" letter-spacing="0.4" >HTML/CSS</text>
+  <rect x="304" y="440" width="226" height="40" rx="2" fill="#9FB6F5" stroke="#F7F2E7" stroke-width="2.6"/>
+  <text x="417" y="465.76" font-family="'Cascadia Mono','JetBrains Mono',Consolas,'Courier New',monospace" font-size="16.0" font-weight="700" fill="#0A0A0A" text-anchor="middle" letter-spacing="0.4" >React</text>
+  <rect x="66" y="490" width="226" height="40" rx="2" fill="#B49CFF" stroke="#F7F2E7" stroke-width="2.6"/>
+  <text x="179" y="515.76" font-family="'Cascadia Mono','JetBrains Mono',Consolas,'Courier New',monospace" font-size="16.0" font-weight="700" fill="#0A0A0A" text-anchor="middle" letter-spacing="0.4" >Git/GitHub</text>
+  <rect x="304" y="490" width="226" height="40" rx="2" fill="#FF8A52" stroke="#F7F2E7" stroke-width="2.6"/>
+  <text x="417" y="515.76" font-family="'Cascadia Mono','JetBrains Mono',Consolas,'Courier New',monospace" font-size="16.0" font-weight="700" fill="#0A0A0A" text-anchor="middle" letter-spacing="0.4" >Render</text>
+  <rect x="579" y="339" width="500" height="216" rx="4" fill="#000000"/><rect x="572" y="332" width="500" height="216" rx="4" fill="#16161E" stroke="#F7F2E7" stroke-width="4"/>
+  <rect x="590" y="348" width="191" height="30" rx="2" fill="#FF9BEC" stroke="#F7F2E7" stroke-width="3"/>
+  <text x="685" y="369" font-family="'Cascadia Mono','JetBrains Mono',Consolas,'Courier New',monospace" font-size="13" font-weight="700" fill="#0A0A0A" text-anchor="middle" letter-spacing="1.2" >ANÁLISE &amp; AUTOMAÇÃO</text>
+  <rect x="590" y="390" width="226" height="40" rx="2" fill="#2CF08D" stroke="#F7F2E7" stroke-width="2.6"/>
+  <text x="703" y="415.76" font-family="'Cascadia Mono','JetBrains Mono',Consolas,'Courier New',monospace" font-size="16.0" font-weight="700" fill="#0A0A0A" text-anchor="middle" letter-spacing="0.4" >Estatística</text>
+  <rect x="828" y="390" width="226" height="40" rx="2" fill="#B49CFF" stroke="#F7F2E7" stroke-width="2.6"/>
+  <text x="941" y="415.76" font-family="'Cascadia Mono','JetBrains Mono',Consolas,'Courier New',monospace" font-size="16.0" font-weight="700" fill="#0A0A0A" text-anchor="middle" letter-spacing="0.4" >Machine Learning</text>
+  <rect x="590" y="440" width="226" height="40" rx="2" fill="#9FB6F5" stroke="#F7F2E7" stroke-width="2.6"/>
+  <text x="703" y="465.76" font-family="'Cascadia Mono','JetBrains Mono',Consolas,'Courier New',monospace" font-size="16.0" font-weight="700" fill="#0A0A0A" text-anchor="middle" letter-spacing="0.4" >ETL</text>
+  <rect x="828" y="440" width="226" height="40" rx="2" fill="#FF9BEC" stroke="#F7F2E7" stroke-width="2.6"/>
+  <text x="941" y="465.76" font-family="'Cascadia Mono','JetBrains Mono',Consolas,'Courier New',monospace" font-size="16.0" font-weight="700" fill="#0A0A0A" text-anchor="middle" letter-spacing="0.4" >Data Viz</text>
+  <rect x="590" y="490" width="226" height="40" rx="2" fill="#FF8A52" stroke="#F7F2E7" stroke-width="2.6"/>
+  <text x="703" y="515.76" font-family="'Cascadia Mono','JetBrains Mono',Consolas,'Courier New',monospace" font-size="16.0" font-weight="700" fill="#0A0A0A" text-anchor="middle" letter-spacing="0.4" >Colab</text>
+  <rect x="828" y="490" width="226" height="40" rx="2" fill="#FFE600" stroke="#F7F2E7" stroke-width="2.6"/>
+  <text x="941" y="515.76" font-family="'Cascadia Mono','JetBrains Mono',Consolas,'Courier New',monospace" font-size="16.0" font-weight="700" fill="#0A0A0A" text-anchor="middle" letter-spacing="0.4" >Flet</text>
+</svg>

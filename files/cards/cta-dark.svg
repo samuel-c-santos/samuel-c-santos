@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="250" viewBox="0 0 1280 250">
+  <defs>
+    <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse">
+      <path d="M 34 0 L 0 0 0 34" fill="none" stroke="#1F1F29" stroke-width="1.4"/>
+    </pattern>
+  </defs>
+  <rect width="1280" height="250" fill="#0D0D12"/>
+  <rect width="1280" height="250" fill="url(#grid)"/>
+<rect x="65" y="45" width="1168" height="178" rx="4" fill="#000000"/><rect x="56" y="36" width="1168" height="178" rx="4" fill="#F7F2E7" stroke="#F7F2E7" stroke-width="4"/>
+  <text x="96" y="104" font-family="'Arial Black','Arial Bold',Impact,Haettenschweiler,sans-serif" font-size="50.0" font-weight="900" fill="#0D0D12" text-anchor="start" letter-spacing="-2" >VAMOS CONSTRUIR ALGO</text>
+  <text x="96" y="166" font-family="'Arial Black','Arial Bold',Impact,Haettenschweiler,sans-serif" font-size="50.0" font-weight="900" fill="#FFE600" text-anchor="start" letter-spacing="-2" >QUE AGUENTA DADO DE VERDADE.</text>
+  <text x="1200" y="78" font-family="'Cascadia Mono','JetBrains Mono',Consolas,'Courier New',monospace" font-size="14" font-weight="700" fill="#0D0D12" text-anchor="end" letter-spacing="2" >GEO · DADOS · CÓDIGO</text>
+  <text x="1200" y="200" font-family="'Cascadia Mono','JetBrains Mono',Consolas,'Courier New',monospace" font-size="17" font-weight="700" fill="#FFE600" text-anchor="end" letter-spacing="0" >samuelsantos.site ↗</text>
+  <rect x="1097" y="89" width="84" height="84" rx="3" fill="#0D0D12"/><rect x="1092" y="84" width="84" height="84" rx="3" fill="#FFE600" stroke="#F7F2E7" stroke-width="4"/>
+  <rect x="1110" y="118" width="34" height="16" fill="#0A0A0A"/><polygon points="1142,106 1142,146 1162,126" fill="#0A0A0A"/>
+</svg>
