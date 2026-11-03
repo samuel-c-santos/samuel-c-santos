@@ -6,11 +6,14 @@ Cada cartão é escrito em files/cards/. As versões "-dark" só existem para os
 cartões que têm fundo de papel; os demais funcionam nos dois temas.
 """
 
+import base64
+import io
 from pathlib import Path
 
-from PIL import ImageFont
+from PIL import Image, ImageFont
 
 OUT = Path(__file__).resolve().parent.parent / "files" / "cards"
+FILES = Path(__file__).resolve().parent.parent / "files"
 
 # Fontes locais usadas só para medir o texto e encaixar as caixas com precisão.
 # No SVG os nomes de família continuam genéricos (Arial Black, Consolas...).
@@ -45,6 +48,7 @@ LIGHT = {
     "grid": "#E9E1CD",
     "ink": "#0A0A0A",
     "card": "#FFFFFF",
+    "card2": "#FAF4E6",
     "muted": "#5B5648",
     "yellow": "#FFE600",
     "red": "#FF4D4D",
@@ -61,6 +65,7 @@ DARK = {
     "grid": "#1F1F29",
     "ink": "#F7F2E7",
     "card": "#16161E",
+    "card2": "#1C1C26",
     "muted": "#B4AD9E",
     "yellow": "#FFE600",
     "red": "#FF5C5C",
@@ -160,10 +165,10 @@ def build_hero(p):
 
     # bloco do nome
     name_size = 104
-    name2_w = measure("C. SANTOS", name_size, "black", -4)
+    name2_w = measure("SANTOS", name_size, "black", -4)
     b.append(rect(40, 196, int(name2_w) + 34, 100, p["yellow"], p["ink"], 4))
     b.append(txt(56, 190, "SAMUEL", name_size, p["ink"], BLACK, 900, "start", -4))
-    b.append(txt(56, 282, "C. SANTOS", name_size, p["ink"], BLACK, 900, "start", -4))
+    b.append(txt(56, 282, "SANTOS", name_size, p["ink"], BLACK, 900, "start", -4))
     b.append(
         txt(
             58,
@@ -199,7 +204,7 @@ def build_hero(p):
     b.append(txt(tx + tw - 16, ty + 24, "● ● ●", 12, p["ink"], MONO, 700, "end"))
 
     lines = [
-        ("$ whoami", "samuel c. santos"),
+        ("$ whoami", "samuel santos"),
         ("$ cat foco.txt", "geo · dados · automação"),
         ("$ pwd", "belém / pará / brasil"),
         ("$ status", "coordenando geotecnologias"),
@@ -263,14 +268,21 @@ def build_stack(p):
     )
 
     groups = [
-        ("DADOS & BI", "yellow", ["Python", "R", "SQL", "Pandas", "Power BI", "Streamlit"]),
-        ("GEO", "green", ["PostGIS", "QGIS", "GDAL", "GeoPandas", "Earth Engine", "Leaflet"]),
-        ("DEV & WEB", "blue", ["Flask", "JavaScript", "HTML/CSS", "React", "Git/GitHub", "Render"]),
-        ("ANÁLISE & AUTOMAÇÃO", "pink", ["Estatística", "Machine Learning", "ETL", "Data Viz", "Colab", "Flet"]),
+        ("DADOS & BI", "yellow", ["Python", "R", "SQL", "Pandas", "Power BI", "Streamlit", "DuckDB"]),
+        ("GEO", "green", ["PostGIS", "QGIS", "GDAL", "GeoPandas", "Earth Engine", "Leaflet", "Sensoriamento Remoto"]),
+        ("DEV & WEB", "blue", ["FastAPI", "Flask", "JavaScript", "React", "React Native", "HTML/CSS", "Git/GitHub", "Render"]),
+        ("ANÁLISE & AUTOMAÇÃO", "pink", ["Estatística", "Machine Learning", "ETL", "Data Viz", "Colab", "Flet", "Automação"]),
     ]
 
-    cw, ch = 500, 216
-    positions = [(48, 100), (572, 100), (48, 332), (572, 332)]
+    cw = 500
+    chip_w, chip_h, gap = 226, 38, 8
+    row_step = chip_h + gap
+    top = 58
+    bottom_pad = 18
+    rows = 4
+    ch = top + rows * row_step - gap + bottom_pad
+    positions = [(48, 100), (572, 100), (48, 100 + ch + 22), (572, 100 + ch + 22)]
+
     for (title, color, items), (x, y) in zip(groups, positions):
         b.append(rect(x, y, cw, ch, p["card"], p["ink"], 4, 4, p["shadow"], 7, 7))
         label_w = int(measure(title, 13, "mono", 1.2) + 34)
@@ -289,19 +301,22 @@ def build_stack(p):
             )
         )
 
-        chip_w, chip_h = 226, 40
+        total = len(items)
         for i, item in enumerate(items):
-            col, row = i % 2, i // 2
+            row, col = divmod(i, 2)
+            # sobra ímpar: o último chip ocupa a linha inteira
+            wide = total % 2 == 1 and i == total - 1
+            w = chip_w * 2 + 12 if wide else chip_w
             cx = x + 18 + col * (chip_w + 12)
-            cy = y + 58 + row * (chip_h + 10)
+            cy = y + top + row * row_step
             fill = p[ACCENTS[(i + 2 * row + positions.index((x, y))) % len(ACCENTS)]]
-            b.append(rect(cx, cy, chip_w, chip_h, fill, p["ink"], 2.6, 2))
+            b.append(rect(cx, cy, w, chip_h, fill, p["ink"], 2.6, 2))
             size = 16.0
-            while size > 10 and measure(item, size, "mono", 0.4) > chip_w - 20:
+            while size > 10 and measure(item, size, "mono", 0.4) > w - 20:
                 size -= 0.5
             b.append(
                 txt(
-                    cx + chip_w // 2,
+                    cx + w // 2,
                     cy + chip_h // 2 + size * 0.36,
                     item,
                     size,
@@ -313,7 +328,7 @@ def build_stack(p):
                 )
             )
 
-    return wrap(1120, 570, "\n  ".join(b), p)
+    return wrap(1120, 100 + 2 * ch + 22 + 30, "\n  ".join(b), p)
 
 
 # --------------------------------------------------------------------------- #
@@ -348,6 +363,95 @@ def build_cta(p):
 
 
 # --------------------------------------------------------------------------- #
+# CERTIFICAÇÕES
+# --------------------------------------------------------------------------- #
+CERTS = [
+    ("ibm_data_science.png", "IBM Data Science", "IBM / Coursera", "PROFESSIONAL CERTIFICATE"),
+    ("google_business_intelligence.png", "Google Business Intelligence", "Google / Coursera", "PROFESSIONAL CERTIFICATE"),
+    ("google_data_analytics.png", "Google Data Analytics", "Google / Coursera", "PROFESSIONAL CERTIFICATE"),
+    ("google_advanced_data_analytics.png", "Google Advanced Data Analytics", "Google / Coursera", "PROFESSIONAL CERTIFICATE"),
+    ("google_it_automation_python.png", "Google IT Automation with Python", "Google / Coursera", "SPECIALIZATION"),
+]
+
+_BADGE_CACHE = {}
+
+
+def badge_uri(filename, size=160):
+    if filename not in _BADGE_CACHE:
+        image = Image.open(FILES / filename).convert("RGBA")
+        image = image.resize((size, size), Image.LANCZOS)
+        buffer = io.BytesIO()
+        image.save(buffer, "PNG", optimize=True)
+        _BADGE_CACHE[filename] = (
+            "data:image/png;base64," + base64.b64encode(buffer.getvalue()).decode("ascii")
+        )
+    return _BADGE_CACHE[filename]
+
+
+def build_certs(p):
+    b = []
+    b.append(tape(40, 32, "CREDENCIAIS VERIFICÁVEIS", p, "yellow", 14))
+    b.append(txt(920, 56, "▲ IBM · GOOGLE · COURSERA", 13, p["muted"], MONO, 700, "end"))
+
+    x, y, w = 40, 92, 880
+    header = 50
+    row_h = 84
+    card_h = header + row_h * len(CERTS)
+    b.append(rect(x, y, w, card_h, p["card"], p["ink"], 4, 4, p["shadow"], 8, 8))
+
+    # cabeçalho
+    b.append(rect(x, y, w, header, p["ink"], p["ink"], 4, 4))
+    b.append(rect(x, y + header - 12, w, 12, p["ink"]))
+    b.append(txt(x + 106, y + 32, "CERTIFICAÇÃO", 12, p["paper"], MONO, 700, "start", 1.6))
+    b.append(txt(x + w - 26, y + 32, "TIPO", 12, p["paper"], MONO, 700, "end", 1.6))
+
+    for i, (filename, name, issuer, kind) in enumerate(CERTS):
+        row_y = y + header + i * row_h
+        if i % 2 == 1:
+            b.append(rect(x + 4, row_y, w - 8, row_h, p["card2"]))
+
+        # badge
+        bx, by, bs = x + 18, row_y + 8, 68
+        b.append(rect(bx, by, bs, bs, "#FFFFFF", p["ink"], 2.6, 2))
+        b.append(
+            f'<image x="{bx + 3}" y="{by + 3}" width="{bs - 6}" height="{bs - 6}" '
+            f'preserveAspectRatio="xMidYMid slice" href="{badge_uri(filename)}"/>'
+        )
+
+        size = 19.0
+        while size > 13 and measure(name, size, "black") > 530:
+            size -= 0.5
+        b.append(txt(x + 106, row_y + 40, name.upper(), size, p["ink"], BLACK, 900, "start", -0.4))
+        b.append(txt(x + 106, row_y + 66, issuer, 12, p["muted"], MONO, 700, "start", 0.4))
+
+        chip_w = int(measure(kind, 11, "mono", 1.2) + 26)
+        chip_x = x + w - 26 - chip_w
+        b.append(
+            rect(chip_x, row_y + row_h // 2 - 14, chip_w, 28, p[ACCENTS[i % len(ACCENTS)]], p["ink"], 2.4, 2)
+        )
+        b.append(
+            txt(
+                chip_x + chip_w // 2,
+                row_y + row_h // 2 + 4,
+                kind,
+                11,
+                "#0A0A0A",
+                MONO,
+                700,
+                "middle",
+                1.2,
+            )
+        )
+
+        if i < len(CERTS) - 1:
+            b.append(
+                f'<rect x="{x + 18}" y="{row_y + row_h - 1}" width="{w - 36}" height="1.6" fill="{p["ink"]}"/>'
+            )
+
+    return wrap(960, y + card_h + 38, "\n  ".join(b), p)
+
+
+# --------------------------------------------------------------------------- #
 # CHIPS DE LINK (um por arquivo, servem nos dois temas)
 # --------------------------------------------------------------------------- #
 def build_chip(label):
@@ -377,6 +481,7 @@ def main():
     for name, palette in (("light", LIGHT), ("dark", DARK)):
         files[f"hero-{name}.svg"] = build_hero(palette)
         files[f"stack-{name}.svg"] = build_stack(palette)
+        files[f"certs-{name}.svg"] = build_certs(palette)
         files[f"cta-{name}.svg"] = build_cta(palette)
 
     files["ticker.svg"] = build_ticker()

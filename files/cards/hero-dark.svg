@@ -7,9 +7,9 @@
   <rect width="1280" height="480" fill="#0D0D12"/>
   <rect width="1280" height="480" fill="url(#grid)"/>
 <rect x="61" y="45" width="449" height="38" rx="0" fill="#000000"/><rect x="56" y="40" width="449" height="38" rx="0" fill="#FFE600" stroke="#F7F2E7" stroke-width="3.5"/><text x="280" y="65" font-family="'Arial Black','Arial Bold',Impact,Haettenschweiler,sans-serif" font-size="14" font-weight="900" fill="#F7F2E7" text-anchor="middle" letter-spacing="1.2" >★ ENGENHARIA DE DADOS &amp; GEOTECNOLOGIA</text>
-  <rect x="40" y="196" width="629" height="100" rx="0" fill="#FFE600" stroke="#F7F2E7" stroke-width="4"/>
+  <rect x="40" y="196" width="489" height="100" rx="0" fill="#FFE600" stroke="#F7F2E7" stroke-width="4"/>
   <text x="56" y="190" font-family="'Arial Black','Arial Bold',Impact,Haettenschweiler,sans-serif" font-size="104" font-weight="900" fill="#F7F2E7" text-anchor="start" letter-spacing="-4" >SAMUEL</text>
-  <text x="56" y="282" font-family="'Arial Black','Arial Bold',Impact,Haettenschweiler,sans-serif" font-size="104" font-weight="900" fill="#F7F2E7" text-anchor="start" letter-spacing="-4" >C. SANTOS</text>
+  <text x="56" y="282" font-family="'Arial Black','Arial Bold',Impact,Haettenschweiler,sans-serif" font-size="104" font-weight="900" fill="#F7F2E7" text-anchor="start" letter-spacing="-4" >SANTOS</text>
   <text x="58" y="348" font-family="'Cascadia Mono','JetBrains Mono',Consolas,'Courier New',monospace" font-size="20" font-weight="700" fill="#F7F2E7" text-anchor="start" letter-spacing="0" >ciência de dados · geoprocessamento · automação</text>
   <rect x="61" y="387" width="162" height="62" rx="3" fill="#000000"/><rect x="56" y="382" width="162" height="62" rx="3" fill="#16161E" stroke="#F7F2E7" stroke-width="3.5"/>
   <text x="74" y="423" font-family="'Arial Black','Arial Bold',Impact,Haettenschweiler,sans-serif" font-size="30" font-weight="900" fill="#F7F2E7" text-anchor="start" letter-spacing="0" >7+</text>
@@ -26,7 +26,7 @@
   <text x="758" y="116" font-family="'Cascadia Mono','JetBrains Mono',Consolas,'Courier New',monospace" font-size="13" font-weight="700" fill="#F7F2E7" text-anchor="start" letter-spacing="0" >samuel@portfolio: ~</text>
   <text x="1208" y="116" font-family="'Cascadia Mono','JetBrains Mono',Consolas,'Courier New',monospace" font-size="12" font-weight="700" fill="#F7F2E7" text-anchor="end" letter-spacing="0" >● ● ●</text>
   <text x="762" y="162" font-family="'Cascadia Mono','JetBrains Mono',Consolas,'Courier New',monospace" font-size="15.5" font-weight="700" fill="#FFE600" text-anchor="start" letter-spacing="0" >$ whoami</text>
-  <text x="762" y="184" font-family="'Cascadia Mono','JetBrains Mono',Consolas,'Courier New',monospace" font-size="15.5" font-weight="700" fill="#F7F2E7" text-anchor="start" letter-spacing="0" >samuel c. santos</text>
+  <text x="762" y="184" font-family="'Cascadia Mono','JetBrains Mono',Consolas,'Courier New',monospace" font-size="15.5" font-weight="700" fill="#F7F2E7" text-anchor="start" letter-spacing="0" >samuel santos</text>
   <text x="762" y="211" font-family="'Cascadia Mono','JetBrains Mono',Consolas,'Courier New',monospace" font-size="15.5" font-weight="700" fill="#FFE600" text-anchor="start" letter-spacing="0" >$ cat foco.txt</text>
   <text x="762" y="233" font-family="'Cascadia Mono','JetBrains Mono',Consolas,'Courier New',monospace" font-size="15.5" font-weight="700" fill="#F7F2E7" text-anchor="start" letter-spacing="0" >geo · dados · automação</text>
   <text x="762" y="260" font-family="'Cascadia Mono','JetBrains Mono',Consolas,'Courier New',monospace" font-size="15.5" font-weight="700" fill="#FFE600" text-anchor="start" letter-spacing="0" >$ pwd</text>
