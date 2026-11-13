@@ -1,80 +1,92 @@
 <div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/samuel-c-santos/samuel-c-santos/main/files/cards/hero-dark.svg">
-    <img src="files/cards/hero-light.svg" width="100%" alt="Samuel Santos, ciência de dados, geoprocessamento e automação de processos">
-  </picture>
+  <h1>Samuel Santos</h1>
+  <p><strong>Geotecnologias · Ciência de Dados · Software</strong></p>
+  <p>Transformando dados espaciais em decisões e automações que funcionam no mundo real.</p>
+
+  <a href="https://samuelsantos.site/">
+    <img src="https://img.shields.io/badge/Portf%C3%B3lio-samuelsantos.site-0364c2?style=for-the-badge" alt="Portfólio" />
+  </a>
+  <a href="https://www.linkedin.com/in/samuelsantos-amb/">
+    <img src="https://img.shields.io/badge/LinkedIn-samuelsantos--amb-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="mailto:samuelsantosambiental@gmail.com">
+    <img src="https://img.shields.io/badge/Email-samuelsantosambiental%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
 </div>
 
-<img src="files/cards/ticker.svg" width="100%" alt="">
+---
 
-## <img src="files/cards/marker.svg" width="13" height="13" alt=""> Sobre mim
+## Sobre
 
-Trabalho com dados ambientais e territoriais há mais de sete anos, unindo geoprocessamento, engenharia de dados e desenvolvimento de software. Minha rotina é construir bases espaciais, dashboards e automações que outras equipes usam para decidir.
+Coordenador de Geotecnologias no IDEFLOR-Bio, responsável pela inteligência espacial das Unidades de Conservação do Pará. Trabalho com dados ambientais e territoriais há mais de sete anos, unindo geoprocessamento, engenharia de dados e desenvolvimento de software.
 
-Atualmente coordeno a área de geotecnologias do IDEFLOR-Bio, responsável pela inteligência espacial das Unidades de Conservação do Pará. Antes, passei pela SEMAS, com regularização ambiental e análise de dados.
+> **Portfólio completo:** [samuelsantos.site](https://samuelsantos.site/) — projetos, certificações e contato.
 
-- **ATUANDO AGORA:** Coordenador de Geotecnologias no IDEFLOR-Bio
-- **FORMAÇÃO:** Mestrado em Biologia Ambiental (UFPA), especialização em Ciência de Dados (UNAMA) e especialização em Geoprocessamento e Solos (UFRA)
-- **LOCALIZAÇÃO:** Belém, Pará
-- **FOCO:** Geoprocessamento, Business Intelligence e automação de processos
+---
 
-## <img src="files/cards/marker.svg" width="13" height="13" alt=""> O que eu faço
+## Projetos em destaque
 
-- **Inteligência espacial:** PostGIS, QGIS, GDAL, sensoriamento remoto e modelagem ambiental.
-- **Business Intelligence:** dashboards em Power BI, pipelines em Python e R e relatórios técnicos.
-- **Software e automação:** geovisores, aplicações web e rotinas que eliminam trabalho manual.
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>Pörtica</h3>
+      <p>Calculadora estrutural de vigas de concreto armado (NBR 6118:2023), com parser FTOOL, relatórios em PDF e desenhos em DXF.</p>
+      <a href="https://github.com/samuel-c-santos/portica-app">Repositório</a>
+    </td>
+    <td width="50%" valign="top">
+      <h3>Visualizador Geoespacial</h3>
+      <p>Aplicação web para visualizar, filtrar e exportar camadas de UCs, terras indígenas e quilombos.</p>
+      <a href="https://ngeo-ideflor-bio.github.io/visualizador/">Demo</a> · <a href="https://github.com/NGEO-IDEFLOR-Bio/visualizador">Repositório</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>Mensor (GIS Offline)</h3>
+      <p>GIS de campo offline-first (React Native/MapLibre/SQLite) com UI moderna e sincronização.</p>
+      <a href="https://github.com/samuel-c-santos/app-gis-offline">Repositório</a>
+    </td>
+    <td width="50%" valign="top">
+      <h3>CADelétrico</h3>
+      <p>CAD web para projetos elétricos prediais (NBR 5410/6492), com diagramas unifilares e exportação DXF.</p>
+      <a href="https://github.com/samuel-c-santos/openeletrica">Repositório</a>
+    </td>
+  </tr>
+</table>
+
+<p align="center">
+  <a href="https://samuelsantos.site/#projetos">
+    <img src="https://img.shields.io/badge/Ver_todos_os_projetos-0364c2?style=for-the-badge" alt="Ver todos" />
+  </a>
+</p>
+
+---
+
+## Tech Stack
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,r,js,ts,react,astro,nodejs,html,css" alt="Linguagens e Web" />
+  <br/>
+  <img src="https://skillicons.dev/icons?i=postgres,docker,git,github,vscode,linux" alt="Dados e Ferramentas" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/QGIS-589632?style=for-the-badge&logo=qgis&logoColor=white" alt="QGIS" />
+  <img src="https://img.shields.io/badge/Google_Earth_Engine-4285F4?style=for-the-badge&logo=googleearth&logoColor=white" alt="GEE" />
+  <img src="https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" alt="Power BI" />
+  <img src="https://img.shields.io/badge/DuckDB-FFF000?style=for-the-badge&logo=duckdb&logoColor=black" alt="DuckDB" />
+</p>
+
+---
+
+## Contato
+
+<p align="center">
+  <a href="mailto:samuelsantosambiental@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" /></a>
+  <a href="https://www.linkedin.com/in/samuelsantos-amb/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://github.com/samuel-c-santos"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+  <a href="https://samuelsantos.site/"><img src="https://img.shields.io/badge/Portf%C3%B3lio-0364c2?style=for-the-badge&logo=astro&logoColor=white" alt="Portfólio" /></a>
+</p>
 
 <div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/samuel-c-santos/samuel-c-santos/main/files/cards/stack-dark.svg">
-    <img src="files/cards/stack-light.svg" width="100%" alt="Stack: Python, R, SQL, Pandas, Power BI, Streamlit, DuckDB, PostGIS, QGIS, GDAL, GeoPandas, Google Earth Engine, Leaflet, sensoriamento remoto, FastAPI, Flask, JavaScript, React, React Native, HTML/CSS, Git/GitHub, Render, estatística, machine learning, ETL, visualização de dados, Colab, Flet e automação">
-  </picture>
-</div>
-
-## <img src="files/cards/marker.svg" width="13" height="13" alt=""> Projetos em destaque
-
-- **[GeoVicinal](https://github.com/samuel-c-santos/amazoniahack):** roteamento topológico offline sobre estradas vicinais não oficiais da Amazônia. Grafo binário CSR de 29,3 MB e Dijkstra rodando no navegador.
-- **[Pórtica](https://github.com/samuel-c-santos/portica-app):** calculadora estrutural de vigas de concreto armado conforme a NBR 6118:2023, com parser FTOOL, relatórios em PDF e desenhos em DXF.
-- **[Visualizador Geoespacial](https://ngeo-ideflor-bio.github.io/visualizador/):** aplicação web para visualizar, filtrar e exportar camadas de Unidades de Conservação, terras indígenas e quilombos.
-
-<div align="right"><a href="https://samuelsantos.site/#projetos"><strong>ver todos os projetos →</strong></a></div>
-
-## <img src="files/cards/marker.svg" width="13" height="13" alt=""> Certificações
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/samuel-c-santos/samuel-c-santos/main/files/cards/certs-dark.svg">
-    <img src="files/cards/certs-light.svg" width="100%" alt="Certificações: IBM Data Science, Google Business Intelligence, Google Data Analytics, Google Advanced Data Analytics e Google IT Automation with Python">
-  </picture>
-</div>
-
-<div align="center">
-  <sub><a href="https://www.coursera.org/account/accomplishments/professional-cert/S77137BIW3BB">IBM Data Science</a> · <a href="https://www.coursera.org/account/accomplishments/professional-cert/6O9UOEAOR8SC">Google Business Intelligence</a> · <a href="https://www.coursera.org/account/accomplishments/professional-cert/UCL8PA52WE22">Google Data Analytics</a> · <a href="https://www.coursera.org/account/accomplishments/professional-cert/FERD3VNVCZUX">Google Advanced Data Analytics</a> · <a href="https://www.coursera.org/account/accomplishments/specialization/TMPQCW1K8GJU">Google IT Automation with Python</a></sub>
-</div>
-
-## <img src="files/cards/marker.svg" width="13" height="13" alt=""> Métricas
-
-<div align="center">
-  <img src="github-metrics.svg" width="480" alt="Métricas de atividade de Samuel Santos no GitHub">
-</div>
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/samuel-c-santos/samuel-c-santos/main/files/cards/cta-dark.svg">
-    <img src="files/cards/cta-light.svg" width="100%" alt="Vamos construir algo que aguenta dado de verdade">
-  </picture>
-</div>
-
-<div align="center">
-  <a href="https://github.com/samuel-c-santos"><img src="files/cards/chip-github.svg" alt="GitHub"></a>&nbsp;
-  <a href="https://www.linkedin.com/in/samuelsantos-amb/"><img src="files/cards/chip-linkedin.svg" alt="LinkedIn"></a>&nbsp;
-  <a href="mailto:samuelsantosambiental@gmail.com"><img src="files/cards/chip-email.svg" alt="E-mail"></a>&nbsp;
-  <a href="https://wa.me/5591984741391"><img src="files/cards/chip-whatsapp.svg" alt="WhatsApp"></a>&nbsp;
-  <a href="https://samuelsantos.site/"><img src="files/cards/chip-site.svg" alt="Site"></a>
-</div>
-
-<br>
-
-<div align="center">
-  <sub>Belém, Pará · <a href="https://dot.cards/samuelsantos">cartão digital</a> · <a href="https://github.com/samuel-c-santos/cartografia">portfólio de cartografia</a></sub>
+  <sub>Belém, Pará · <a href="https://github.com/samuel-c-santos/samuel-c-santos.github.io">portfólio web</a></sub>
 </div>
