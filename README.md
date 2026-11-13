@@ -34,22 +34,42 @@ Coordenador de Geotecnologias no IDEFLOR-Bio, responsável pela inteligência es
       <a href="https://github.com/samuel-c-santos/portica-app">Repositório</a>
     </td>
     <td width="50%" valign="top">
-      <h3>Visualizador Geoespacial</h3>
-      <p>Aplicação web para visualizar, filtrar e exportar camadas de UCs, terras indígenas e quilombos.</p>
-      <a href="https://ngeo-ideflor-bio.github.io/visualizador/">Demo</a> · <a href="https://github.com/NGEO-IDEFLOR-Bio/visualizador">Repositório</a>
+      <h3>Guia das UCs do Pará</h3>
+      <p>Mapa interativo e guia scrollytelling das Unidades de Conservação estaduais do Pará.</p>
+      <a href="https://github.com/NGEO-IDEFLOR-Bio/guia-uc-para">Repositório</a>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3>Mensor (GIS Offline)</h3>
-      <p>GIS de campo offline-first (React Native/MapLibre/SQLite) com UI moderna e sincronização.</p>
-      <a href="https://github.com/samuel-c-santos/app-gis-offline">Repositório</a>
+      <h3>Visualizador Geoespacial</h3>
+      <p>Aplicação web para visualizar, filtrar e exportar camadas de UCs, terras indígenas e quilombos.</p>
+      <a href="https://ngeo-ideflor-bio.github.io/visualizador/">Demo</a> · <a href="https://github.com/NGEO-IDEFLOR-Bio/visualizador">Repositório</a>
     </td>
     <td width="50%" valign="top">
-      <h3>CADelétrico</h3>
-      <p>CAD web para projetos elétricos prediais (NBR 5410/6492), com diagramas unifilares e exportação DXF.</p>
-      <a href="https://github.com/samuel-c-santos/openeletrica">Repositório</a>
+      <h3>Cartografia de Queimadas (UCs-PA)</h3>
+      <p>Pipeline automatizado (Python/GEE/Colab) para monitoramento e cartografia de focos de incêndio em UCs.</p>
+      <a href="https://github.com/NGEO-IDEFLOR-Bio/cartografia-queimadas-ucs-pa">Repositório</a>
     </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>Sentinel Time Viewer</h3>
+      <p>Comparação temporal de imagens Sentinel-2 com swipe e sobreposição vetorial (GEE/geemap).</p>
+      <a href="https://github.com/NGEO-IDEFLOR-Bio/Sentinel-Time-Viewer">Repositório</a>
+    </td>
+    <td width="50%" valign="top">
+      <h3>Iluminura</h3>
+      <p>Editor/leitor Markdown autônomo no navegador, JS puro, offline-first.</p>
+      <a href="https://github.com/samuel-c-santos/iluminura">Repositório</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>Cartograma de Criminalidade (Belém)</h3>
+      <p>Pipeline em Python/R para cartograma animado de Dorling por bairro em Belém.</p>
+      <a href="https://github.com/samuel-c-santos/belem-crime-dorling-cartogram">Repositório</a>
+    </td>
+    <td width="50%" valign="top"></td>
   </tr>
 </table>
 
