@@ -4,7 +4,7 @@
   <p>Transformando dados espaciais em decisões e automações que funcionam no mundo real.</p>
 
   <a href="https://samuelsantos.site/">
-    <img src="https://img.shields.io/badge/Portf%C3%B3lio-samuelsantos.site-0364c2?style=for-the-badge" alt="Portfólio" />
+    <img src="https://img.shields.io/badge/Portf%C3%B3lio-samuelsantos.site-0364c2?style=for-the-badge&logo=astro&logoColor=white" alt="Portfólio" />
   </a>
   <a href="https://www.linkedin.com/in/samuelsantos-amb/">
     <img src="https://img.shields.io/badge/LinkedIn-samuelsantos--amb-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
@@ -29,7 +29,7 @@ Coordenador de Geotecnologias no IDEFLOR-Bio, responsável pela inteligência es
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3>Pörtica</h3>
+      <h3>Pórtica</h3>
       <p>Calculadora estrutural de vigas de concreto armado (NBR 6118:2023), com parser FTOOL, relatórios em PDF e desenhos em DXF.</p>
       <a href="https://github.com/samuel-c-santos/portica-app">Repositório</a>
     </td>
@@ -69,7 +69,11 @@ Coordenador de Geotecnologias no IDEFLOR-Bio, responsável pela inteligência es
       <p>Pipeline em Python/R para cartograma animado de Dorling por bairro em Belém.</p>
       <a href="https://github.com/samuel-c-santos/belem-crime-dorling-cartogram">Repositório</a>
     </td>
-    <td width="50%" valign="top"></td>
+    <td width="50%" valign="top">
+      <h3>OpenSR: Super-Resolução Sentinel-2</h3>
+      <p>Pipeline de super-resolução espacial (10m → 2.5m) com LDSR-S2 da ESA OpenSR.</p>
+      <a href="https://github.com/samuel-c-santos/opensr-sentinel-pipeline">Repositório</a>
+    </td>
   </tr>
 </table>
 
@@ -94,6 +98,7 @@ Coordenador de Geotecnologias no IDEFLOR-Bio, responsável pela inteligência es
   <img src="https://img.shields.io/badge/Google_Earth_Engine-4285F4?style=for-the-badge&logo=googleearth&logoColor=white" alt="GEE" />
   <img src="https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" alt="Power BI" />
   <img src="https://img.shields.io/badge/DuckDB-FFF000?style=for-the-badge&logo=duckdb&logoColor=black" alt="DuckDB" />
+  <img src="https://img.shields.io/badge/Astro-BC52EE?style=for-the-badge&logo=astro&logoColor=white" alt="Astro" />
 </p>
 
 ---
