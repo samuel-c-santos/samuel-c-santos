@@ -7,7 +7,7 @@
     <img src="https://img.shields.io/badge/Portf%C3%B3lio-samuelsantos.site-0364c2?style=for-the-badge&logo=astro&logoColor=white" alt="Portfólio" />
   </a>
   <a href="https://www.linkedin.com/in/samuelsantos-amb/">
-    <img src="https://img.shields.io/badge/LinkedIn-samuelsantos--amb-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0A66C2" alt="LinkedIn" />
   </a>
   <a href="mailto:samuelsantosambiental@gmail.com">
     <img src="https://img.shields.io/badge/Email-samuelsantosambiental%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
@@ -18,7 +18,7 @@
 
 ## Sobre
 
-Coordenador de Geotecnologias no IDEFLOR-Bio, responsável pela inteligência espacial das Unidades de Conservação do Pará. Trabalho com dados ambientais e territoriais há mais de sete anos, unindo geoprocessamento, engenharia de dados e desenvolvimento de software.
+Coordenador de Geotecnologias no IDEFLOR-Bio, responsável pela inteligência espacial das Unidades de Conservação do Pará. Trabalho com dados ambientais e territoriais há mais de sete anos, u[...]
 
 > **Portfólio completo:** [samuelsantos.site](https://samuelsantos.site/) — projetos, certificações e contato.
 
@@ -107,7 +107,7 @@ Coordenador de Geotecnologias no IDEFLOR-Bio, responsável pela inteligência es
 
 <p align="center">
   <a href="mailto:samuelsantosambiental@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" /></a>
-  <a href="https://www.linkedin.com/in/samuelsantos-amb/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://www.linkedin.com/in/samuelsantos-amb/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0A66C2" alt="LinkedIn" /></a>
   <a href="https://github.com/samuel-c-santos"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
   <a href="https://samuelsantos.site/"><img src="https://img.shields.io/badge/Portf%C3%B3lio-0364c2?style=for-the-badge&logo=astro&logoColor=white" alt="Portfólio" /></a>
 </p>
